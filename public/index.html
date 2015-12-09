@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title></title>
+		<style>
+html, body, #game {
+	margin: 0;
+	padding: 0;
+}
+#swipe-area {
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	z-index: 1000
+}
+#swipe-cursor {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	background-color: black;
+	opacity: 0.5;
+	z-index: 1001
+}
+#game {
+	background-color: #808080;
+	margin: auto;
+	overflow: hidden;
+}
+#canvas-container {
+	position: fixed;
+	top: 0px;
+}
+
+		</style>
+	</head>
+	<body>
+		<div id="game">
+			<div id="canvas-container"></div>
+			<div id="swipe-area">
+				<div id="swipe-cursor"></div>
+			</div>
+		</div>
+		<div style ="display:none">
+			<img id="bike" src="img/bike.png" />
+			<img id="car-1" src="img/car-1.png" />
+			<img id="car-2" src="img/car-2.png" />
+			<img id="scooter-1" src="img/scooter-1.png" />
+			<img id="scooter-2" src="img/scooter-2.png" />
+			<img id="car-1-inv" src="img/car-1-inv.png" />
+			<img id="car-2-inv" src="img/car-2-inv.png" />
+			<img id="scooter-1-inv" src="img/scooter-1-inv.png" />
+			<img id="scooter-2-inv" src="img/scooter-2-inv.png" />
+		</div>
+		<script src="hammer.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
+
