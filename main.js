@@ -2,6 +2,7 @@ var resize = require('./lib/resize')
 var render = require('./lib/render')
 var addBase = require('./lib/canvas-add-base')
 var addObjects = require('./lib/canvas-add-objects')
+var addCoins = require('./lib/canvas-add-coins')
 
 window.onload = function() {
 	setConfig(function() {
@@ -16,6 +17,9 @@ window.onload = function() {
 		setInterval(function() {
 			addObjects()
 		}, window.config.speed.add)
+		setInterval(function() {
+			addCoins()
+		}, window.config.speed.add * 2)
 	})
 }
 

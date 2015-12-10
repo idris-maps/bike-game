@@ -45,7 +45,42 @@ module.exports = function() {
 	})
 }
 
-},{"./canvas":3}],2:[function(require,module,exports){
+},{"./canvas":4}],2:[function(require,module,exports){
+var canvas = require('./canvas')
+
+module.exports = function() {
+	var id = window.config.count + 1
+	window.config.count = id
+	var lane = Math.floor(Math.random() * 14)
+	var x = Math.floor(Math.random() * 5)
+	if(x === 0) {
+		canvas.add({
+			id: 'coin-life-' + id,
+			cl: 'coin-life',	
+			lane: lane,
+			elId: 'coin-life',
+			type: 'image',
+			x: window.config.laneWidth * lane,
+			y: - (window.config.laneWidth),
+			width: window.config.laneWidth,
+			height: window.config.laneWidth
+		})
+	} else {
+		canvas.add({
+			id: 'coin-cash-' + id,
+			cl: 'coin-cash',	
+			lane: lane,
+			elId: 'coin-cash',
+			type: 'image',
+			x: window.config.laneWidth * lane,
+			y: - (window.config.laneWidth),
+			width: window.config.laneWidth,
+			height: window.config.laneWidth
+		})
+	}
+}
+
+},{"./canvas":4}],3:[function(require,module,exports){
 var canvas = require('./canvas')
 var carRight = require('./objects/car-right')
 var scooterRight = require('./objects/scooter-right')
@@ -74,10 +109,7 @@ function addRandomObject() {
 	var object = possible[possibleIndex]
 	var id = window.config.count + 1
 	window.config.count = id
-	checkIfOk(object, function() {
-		add(object, id)
-	})
-
+	if(checkIfOk(object) === true) { add(object, id) }
 }
 
 function add(object, id) {
@@ -89,22 +121,20 @@ function add(object, id) {
 	if(object === 'side-left') { sideLeft(id) }
 }
 
-function checkIfOk(cl, callback) {
+function checkIfOk(cl) {
 	var minY = 1000
 	for(i=0;i<window.config.objs.length;i++) {
 		var o = window.config.objs[i]
 		if(o.cl === cl) { if(o.y < minY) { minY = o.y } }
 	}
 	if(minY > 0) {
-		callback()
+		return true
 	} else {
-		setTimeout(function() {
-			checkIfOk(cl, callback)
-		}, 100)
+		return false
 	}
 }
 
-},{"./canvas":3,"./objects/car-left":5,"./objects/car-right":6,"./objects/scooter-left":7,"./objects/scooter-right":8,"./objects/side-left":9,"./objects/side-right":10}],3:[function(require,module,exports){
+},{"./canvas":4,"./objects/car-left":6,"./objects/car-right":7,"./objects/scooter-left":8,"./objects/scooter-right":9,"./objects/side-left":10,"./objects/side-right":11}],4:[function(require,module,exports){
 exports.init = function(canvasContainerId, config) {
 	var container = document.getElementById(canvasContainerId)
 	container.innerHTML = ''
@@ -208,15 +238,22 @@ exports.draw = function() {
 	}
 }
 
-},{}],4:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
+var canvas = require('./canvas')
+
 exports.initRisk = function() {
 	window.config.risk = []
+	window.config.coin = null
 }
 
 exports.addRisk = function(lanes) {
 	for(i=0;i<lanes.length;i++) {
 		window.config.risk.push(lanes[i])
 	}
+}
+
+exports.addCoin = function(lane, id, type) {
+	window.config.coin = {lane: lane, id: id, type: type}
 }
 
 exports.risks = function() {
@@ -240,14 +277,32 @@ function check(objs, bike) {
 		}
 	}
 	if(boom === true) {
-		document.body.style['background-color'] = 'red'
+		canvas.set('bike', { elId: 'bike-red' })
 		setTimeout(function() {
-			document.body.style['background-color'] = 'white'		
+			canvas.set('bike', { elId: 'bike' })		
 		}, 500)
 	}
 }
 
-},{}],5:[function(require,module,exports){
+exports.coins = function() {
+	if(window.config.coin !== null) {
+		checkCoin(window.config.coin,  bikeLanes())
+	}
+}
+
+function checkCoin(coin, bike) {
+	var boom = false
+	for(i=0;i<bike.length;i++) {
+		if(coin.lane === bike[i]) { boom = true }
+	}
+	if(boom === true) {
+		canvas.remove(coin.id)
+		if(coin.type === 'cash') { console.log('cash') }
+		else { console.log('life') }
+	}
+}
+
+},{"./canvas":4}],6:[function(require,module,exports){
 var canvas = require('../canvas')
 
 module.exports = function(id) {
@@ -269,7 +324,7 @@ module.exports = function(id) {
 
 
 
-},{"../canvas":3}],6:[function(require,module,exports){
+},{"../canvas":4}],7:[function(require,module,exports){
 var canvas = require('../canvas')
 
 module.exports = function(id) {
@@ -291,7 +346,7 @@ module.exports = function(id) {
 
 
 
-},{"../canvas":3}],7:[function(require,module,exports){
+},{"../canvas":4}],8:[function(require,module,exports){
 var canvas = require('../canvas')
 
 module.exports = function(id) {
@@ -316,7 +371,7 @@ module.exports = function(id) {
 	})
 }
 
-},{"../canvas":3}],8:[function(require,module,exports){
+},{"../canvas":4}],9:[function(require,module,exports){
 var canvas = require('../canvas')
 
 module.exports = function(id) {
@@ -341,7 +396,7 @@ module.exports = function(id) {
 	})
 }
 
-},{"../canvas":3}],9:[function(require,module,exports){
+},{"../canvas":4}],10:[function(require,module,exports){
 var canvas = require('../canvas')
 
 module.exports = function(id) {
@@ -361,7 +416,7 @@ module.exports = function(id) {
 	})
 }
 
-},{"../canvas":3}],10:[function(require,module,exports){
+},{"../canvas":4}],11:[function(require,module,exports){
 var canvas = require('../canvas')
 
 module.exports = function(id) {
@@ -381,7 +436,7 @@ module.exports = function(id) {
 	})
 }
 
-},{"../canvas":3}],11:[function(require,module,exports){
+},{"../canvas":4}],12:[function(require,module,exports){
 var canvas = require('./canvas')
 var collision = require('./collision')
 
@@ -390,6 +445,7 @@ module.exports = function() {
 	var objs = window.config.objs
 	moveLoop(0, objs, function() {
 		collision.risks()
+		collision.coins()
 		canvas.draw()
 	})
 }
@@ -449,6 +505,22 @@ function moveLoop(count, objs, callback) {
 				canvas.set(id, {y: newY})
 				checkRisk(newY, 1, [13,14])
 			} 
+		} else if(o.cl === 'coin-life') {
+			var newY = oldY + (window.config.gameH / 100) * 1
+			if(newY > window.config.gameH) {
+				canvas.remove(id)
+			} else {
+				canvas.set(id, {y: newY})
+				checkCoin(newY, 1, o.lane, o.id, 'life')
+			}
+		} else if(o.cl === 'coin-cash') {
+			var newY = oldY + (window.config.gameH / 100) * 1
+			if(newY > window.config.gameH) {
+				canvas.remove(id)
+			} else {
+				canvas.set(id, {y: newY})
+				checkCoin(newY, 1, o.lane, o.id, 'cash')
+			}
 		}
 		count = count + 1
 		moveLoop(count, objs, callback)
@@ -464,8 +536,17 @@ function checkRisk(y, h, lanes) {
 	}
 }
 
+function checkCoin(y, h, lane, id, type) {
+	var laneWidth = window.config.laneWidth
+	var riskStart = window.config.gameH / 2 + laneWidth * 1
+	var riskEnd = window.config.gameH / 2 + laneWidth * 2
+	if(y > riskStart - laneWidth * h && y < riskEnd) {
+		collision.addCoin(lane, id, type)
+	}
+}
 
-},{"./canvas":3,"./collision":4}],12:[function(require,module,exports){
+
+},{"./canvas":4,"./collision":5}],13:[function(require,module,exports){
 var canvas = require('./canvas')
 
 module.exports = function() {
@@ -538,9 +619,10 @@ module.exports = function() {
 			width: window.config.laneWidth * 2,
 			height: window.config.laneWidth
 		})
+
 		var swipeArea = document.getElementById('swipe-area')
 		swipeArea.style.width = w + 'px'
-		swipeArea.style.top = (h - 50 - 20) + 'px'
+		swipeArea.style.top = h * 0.75 + 'px'
 		swipeArea.style.left = x + 'px'
 
 		var swipeCursor = document.getElementById('swipe-cursor')
@@ -581,11 +663,12 @@ function positionCursor(cursor, x) {
 	window.config.x = x
 }
 
-},{"./canvas":3}],13:[function(require,module,exports){
+},{"./canvas":4}],14:[function(require,module,exports){
 var resize = require('./lib/resize')
 var render = require('./lib/render')
 var addBase = require('./lib/canvas-add-base')
 var addObjects = require('./lib/canvas-add-objects')
+var addCoins = require('./lib/canvas-add-coins')
 
 window.onload = function() {
 	setConfig(function() {
@@ -600,6 +683,9 @@ window.onload = function() {
 		setInterval(function() {
 			addObjects()
 		}, window.config.speed.add)
+		setInterval(function() {
+			addCoins()
+		}, window.config.speed.add * 2)
 	})
 }
 
@@ -628,4 +714,4 @@ setInterval(function() {
 */
 
 
-},{"./lib/canvas-add-base":1,"./lib/canvas-add-objects":2,"./lib/render":11,"./lib/resize":12}]},{},[13]);
+},{"./lib/canvas-add-base":1,"./lib/canvas-add-coins":2,"./lib/canvas-add-objects":3,"./lib/render":12,"./lib/resize":13}]},{},[14]);
