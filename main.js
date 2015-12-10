@@ -13,13 +13,17 @@ window.onload = function() {
 		}
 		setInterval(function() {
 			render()
-		},50)
+			window.config.score.points = window.config.score.points + 1
+		},40)
 		setInterval(function() {
 			addObjects()
 		}, window.config.speed.add)
 		setInterval(function() {
 			addCoins()
 		}, window.config.speed.add * 2)
+		setInterval(function() {
+			window.config.speed.nb = window.config.speed.nb + 1
+		}, 20000)
 	})
 }
 
@@ -29,8 +33,13 @@ function setConfig(callback) {
 		objs: [],
 		count: 0,
 		speed: {
-			nb: 3,
+			nb: 2,
 			add: 3000
+		},
+		score: {
+			points: 0,
+			life: 5,
+			boom: false
 		}
 	}
 	callback()

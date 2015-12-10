@@ -257,7 +257,7 @@ exports.addCoin = function(lane, id, type) {
 }
 
 exports.risks = function() {
-	if(window.config.risk.length !== 0) {
+	if(window.config.risk.length !== 0 && window.config.score.boom === false) {
 		check(window.config.risk.sort(), bikeLanes())
 	}
 }
@@ -277,10 +277,17 @@ function check(objs, bike) {
 		}
 	}
 	if(boom === true) {
-		canvas.set('bike', { elId: 'bike-red' })
-		setTimeout(function() {
-			canvas.set('bike', { elId: 'bike' })		
-		}, 500)
+		window.config.score.boom = true
+		window.config.score.life = window.config.score.life - 1
+		console.log(window.config.score)
+		if(window.config.score.life === 0) { console.log('game over') }
+		else { 
+			canvas.set('bike', { elId: 'bike-red' })
+			setTimeout(function() {
+				canvas.set('bike', { elId: 'bike' })	
+				window.config.score.boom = false
+			}, 500)
+		}
 	}
 }
 
@@ -297,8 +304,11 @@ function checkCoin(coin, bike) {
 	}
 	if(boom === true) {
 		canvas.remove(coin.id)
-		if(coin.type === 'cash') { console.log('cash') }
-		else { console.log('life') }
+		if(coin.type === 'cash') { window.config.score.points = window.config.score.points + 100 }
+		else { 
+			if(window.config.score.life < 5) { window.config.score.life = window.config.score.life + 1 }
+		}
+		console.log(window.config.score)
 	}
 }
 
@@ -679,13 +689,17 @@ window.onload = function() {
 		}
 		setInterval(function() {
 			render()
-		},50)
+			window.config.score.points = window.config.score.points + 1
+		},40)
 		setInterval(function() {
 			addObjects()
 		}, window.config.speed.add)
 		setInterval(function() {
 			addCoins()
 		}, window.config.speed.add * 2)
+		setInterval(function() {
+			window.config.speed.nb = window.config.speed.nb + 1
+		}, 20000)
 	})
 }
 
@@ -695,8 +709,13 @@ function setConfig(callback) {
 		objs: [],
 		count: 0,
 		speed: {
-			nb: 3,
+			nb: 2,
 			add: 3000
+		},
+		score: {
+			points: 0,
+			life: 5,
+			boom: false
 		}
 	}
 	callback()
