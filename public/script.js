@@ -204,7 +204,7 @@ function checkIfOk(cl) {
 	}
 }
 
-},{"./canvas":4,"./objects/car-left":6,"./objects/car-right":7,"./objects/scooter-left":8,"./objects/scooter-right":9,"./objects/side-left":10,"./objects/side-right":11}],4:[function(require,module,exports){
+},{"./canvas":4,"./objects/car-left":7,"./objects/car-right":8,"./objects/scooter-left":9,"./objects/scooter-right":10,"./objects/side-left":11,"./objects/side-right":12}],4:[function(require,module,exports){
 exports.init = function(canvasContainerId, config) {
 	var container = document.getElementById(canvasContainerId)
 	container.innerHTML = ''
@@ -375,8 +375,9 @@ function check(objs, bike) {
 	if(boom === true) {
 		window.config.score.boom = true
 		window.config.score.life = window.config.score.life - 1
-		console.log(window.config.score)
-		if(window.config.score.life === 0) { console.log('game over') }
+		if(window.config.score.life === 0) { 
+			stopIntervals()
+		}
 		else { 
 			canvas.set('bike', { elId: 'bike-red' })
 			setTimeout(function() {
@@ -403,12 +404,48 @@ function checkCoin(coin, bike) {
 		if(coin.type === 'cash') { window.config.score.points = window.config.score.points + 100 }
 		else { 
 			if(window.config.score.life < 5) { window.config.score.life = window.config.score.life + 1 }
+			else { window.config.score.points = window.config.score.points + 500 }
 		}
-		console.log(window.config.score)
+	}
+}
+
+function stopIntervals() {
+	for(i=0;i<window.config.intervals.length;i++) {
+		clearInterval(window.config.intervals[i])
 	}
 }
 
 },{"./canvas":4}],6:[function(require,module,exports){
+var resize = require('./resize')
+var render = require('./render')
+var addBase = require('./canvas-add-base')
+var addObjects = require('./canvas-add-objects')
+var addCoins = require('./canvas-add-coins')
+
+module.exports = function() {
+	addBase()
+	resize()
+	window.onresize = function() {
+		resize()
+	}
+	var renderInt = setInterval(function() {
+		render()
+		window.config.score.points = window.config.score.points + 1
+	},40)
+	var objInt = setInterval(function() {
+		addObjects()
+	}, window.config.speed.add)
+	var coinInt = setInterval(function() {
+		addCoins()
+	}, window.config.speed.add * 2)
+	var speedInt = setInterval(function() {
+		window.config.speed.nb = window.config.speed.nb + 1
+	}, 20000)
+	window.config.intervals = [renderInt, objInt, coinInt, speedInt]
+}
+
+
+},{"./canvas-add-base":1,"./canvas-add-coins":2,"./canvas-add-objects":3,"./render":13,"./resize":14}],7:[function(require,module,exports){
 var canvas = require('../canvas')
 
 module.exports = function(id) {
@@ -430,7 +467,7 @@ module.exports = function(id) {
 
 
 
-},{"../canvas":4}],7:[function(require,module,exports){
+},{"../canvas":4}],8:[function(require,module,exports){
 var canvas = require('../canvas')
 
 module.exports = function(id) {
@@ -452,7 +489,7 @@ module.exports = function(id) {
 
 
 
-},{"../canvas":4}],8:[function(require,module,exports){
+},{"../canvas":4}],9:[function(require,module,exports){
 var canvas = require('../canvas')
 
 module.exports = function(id) {
@@ -477,7 +514,7 @@ module.exports = function(id) {
 	})
 }
 
-},{"../canvas":4}],9:[function(require,module,exports){
+},{"../canvas":4}],10:[function(require,module,exports){
 var canvas = require('../canvas')
 
 module.exports = function(id) {
@@ -502,7 +539,7 @@ module.exports = function(id) {
 	})
 }
 
-},{"../canvas":4}],10:[function(require,module,exports){
+},{"../canvas":4}],11:[function(require,module,exports){
 var canvas = require('../canvas')
 
 module.exports = function(id) {
@@ -522,7 +559,7 @@ module.exports = function(id) {
 	})
 }
 
-},{"../canvas":4}],11:[function(require,module,exports){
+},{"../canvas":4}],12:[function(require,module,exports){
 var canvas = require('../canvas')
 
 module.exports = function(id) {
@@ -542,7 +579,7 @@ module.exports = function(id) {
 	})
 }
 
-},{"../canvas":4}],12:[function(require,module,exports){
+},{"../canvas":4}],13:[function(require,module,exports){
 var canvas = require('./canvas')
 var collision = require('./collision')
 
@@ -552,7 +589,9 @@ module.exports = function() {
 	moveLoop(0, objs, function() {
 		collision.risks()
 		collision.coins()
-		canvas.draw()
+		orderObjs(function() {
+			canvas.draw()
+		})
 	})
 }
 
@@ -632,7 +671,7 @@ function moveLoop(count, objs, callback) {
 		} else if(o.id.substring(0, 11) === 'score-life-') {
 			var index = +o.id.substring(11) + 1
 			if(window.config.score.life < index) { canvas.set(o.id, { opacity: 0.2 }) }
-			else { canvas.set(o.id, { opacity: 1 })  }
+			else { canvas.set(o.id, { opacity: 0.8 })  }
 		}
 		count = count + 1
 		moveLoop(count, objs, callback)
@@ -657,7 +696,28 @@ function checkCoin(y, h, lane, id, type) {
 	}
 }
 
-},{"./canvas":4,"./collision":5}],13:[function(require,module,exports){
+function orderObjs(callback) {
+	var objs = window.config.objs
+	var layer1 = []
+	var layer2 = []
+	var layer3 = []
+	for(i=0;i<objs.length;i++) {
+		var cl = objs[i].cl
+		if(cl === 'deco' || cl === 'coin-cash' || cl === 'coin-life') { layer1.push(objs[i]) }
+		else if(cl === 'score' || cl === 'bike') { layer3.push(objs[i]) }
+		else { layer2.push(objs[i]) }
+	}
+	var newObjs = []
+	for(i=0;i<layer1.length;i++) { newObjs.push(layer1[i]) }
+	for(i=0;i<layer2.length;i++) { newObjs.push(layer2[i]) }
+	for(i=0;i<layer3.length;i++) { newObjs.push(layer3[i]) }
+	
+	window.config.objs = newObjs
+
+	callback()
+}
+
+},{"./canvas":4,"./collision":5}],14:[function(require,module,exports){
 var canvas = require('./canvas')
 
 module.exports = function() {
@@ -809,38 +869,16 @@ function positionCursor(cursor, x) {
 	window.config.x = x
 }
 
-},{"./canvas":4}],14:[function(require,module,exports){
-var resize = require('./lib/resize')
-var render = require('./lib/render')
-var addBase = require('./lib/canvas-add-base')
-var addObjects = require('./lib/canvas-add-objects')
-var addCoins = require('./lib/canvas-add-coins')
+},{"./canvas":4}],15:[function(require,module,exports){
+var game = require('./lib/game')
 
 window.onload = function() {
-	setConfig(function() {
-		addBase()
-		resize()
-		window.onresize = function() {
-			resize()
-		}
-		setInterval(function() {
-			render()
-			window.config.score.points = window.config.score.points + 1
-		},40)
-		setInterval(function() {
-			addObjects()
-		}, window.config.speed.add)
-		setInterval(function() {
-			addCoins()
-		}, window.config.speed.add * 2)
-		setInterval(function() {
-			window.config.speed.nb = window.config.speed.nb + 1
-		}, 20000)
+	resetConfig(function() {
+		game()
 	})
 }
 
-
-function setConfig(callback) {
+function resetConfig(callback) {
 	window.config = {
 		objs: [],
 		count: 0,
@@ -857,16 +895,4 @@ function setConfig(callback) {
 	callback()
 }
 
-
-/*
-setInterval(function() {
-	addObjects()
-},3000)
-
-setInterval(function() {
-	moveObjects()
-},100)
-*/
-
-
-},{"./lib/canvas-add-base":1,"./lib/canvas-add-coins":2,"./lib/canvas-add-objects":3,"./lib/render":12,"./lib/resize":13}]},{},[14]);
+},{"./lib/game":6}]},{},[15]);
