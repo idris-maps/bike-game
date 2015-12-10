@@ -49,13 +49,15 @@ module.exports = function() {
 var canvas = require('./canvas')
 var carRight = require('./objects/car-right')
 var scooterRight = require('./objects/scooter-right')
+var sideRight = require('./objects/side-right')
 var carLeft = require('./objects/car-left')
 var scooterLeft = require('./objects/scooter-left')
+var sideLeft = require('./objects/side-left')
 
 module.exports = function() {
 
 	var nb = window.config.speed.nb
-	var interval = 3000/nb
+	var interval = window.config.speed.add/nb
 
 	for(i=0;i<nb;i++) {
 			setTimeout(function() {
@@ -65,7 +67,9 @@ module.exports = function() {
 }
 
 function addRandomObject() {
-	var possible = ['car-right', 'scooter-right', 'car-left', 'scooter-left', 'scooter-right', 'car-left', 'scooter-left']
+
+	var possible = ['car-right', 'scooter-right', 'car-left', 'scooter-left', 'scooter-right', 'car-left', 'scooter-left', 'side-right', 'side-left']
+
 	var possibleIndex = Math.floor(Math.random() * possible.length)
 	var object = possible[possibleIndex]
 	var id = window.config.count + 1
@@ -79,8 +83,10 @@ function addRandomObject() {
 function add(object, id) {
 	if(object === 'car-right') { carRight(id) }
 	if(object === 'scooter-right') { scooterRight(id) }
+	if(object === 'side-right') { sideRight(id) }
 	if(object === 'car-left') { carLeft(id) }
 	if(object === 'scooter-left') { scooterLeft(id) }
+	if(object === 'side-left') { sideLeft(id) }
 }
 
 function checkIfOk(cl, callback) {
@@ -98,7 +104,7 @@ function checkIfOk(cl, callback) {
 	}
 }
 
-},{"./canvas":3,"./objects/car-left":4,"./objects/car-right":5,"./objects/scooter-left":6,"./objects/scooter-right":7}],3:[function(require,module,exports){
+},{"./canvas":3,"./objects/car-left":5,"./objects/car-right":6,"./objects/scooter-left":7,"./objects/scooter-right":8,"./objects/side-left":9,"./objects/side-right":10}],3:[function(require,module,exports){
 exports.init = function(canvasContainerId, config) {
 	var container = document.getElementById(canvasContainerId)
 	container.innerHTML = ''
@@ -125,6 +131,7 @@ exports.add = function(config) {
 	if(config.fill !== undefined) { newObj.fill = config.fill }
 	if(config.stroke !== undefined) { newObj.stroke = config.stroke }
 	if(config.cl !== undefined) { newObj.cl = config.cl }
+	if(config.lane !== undefined) { newObj.lane = config.lane }
 	window.config.objs.push(newObj)
 }
 
@@ -202,6 +209,45 @@ exports.draw = function() {
 }
 
 },{}],4:[function(require,module,exports){
+exports.initRisk = function() {
+	window.config.risk = []
+}
+
+exports.addRisk = function(lanes) {
+	for(i=0;i<lanes.length;i++) {
+		window.config.risk.push(lanes[i])
+	}
+}
+
+exports.risks = function() {
+	if(window.config.risk.length !== 0) {
+		check(window.config.risk.sort(), bikeLanes())
+	}
+}
+
+function bikeLanes() {
+	var start = Math.floor((window.config.x - window.config.laneWidth * 0.3) / window.config.laneWidth)
+	var end = Math.floor((window.config.x + window.config.laneWidth * 0.3) / window.config.laneWidth)
+	if(start === end) { return [start] }
+	else { return [start, end] }
+}
+
+function check(objs, bike) {
+	var boom = false
+	for(i=0;i<objs.length;i++) {
+		for(j=0;j<bike.length;j++) {
+			if(objs[i] === bike[j]) { boom = true }
+		}
+	}
+	if(boom === true) {
+		document.body.style['background-color'] = 'red'
+		setTimeout(function() {
+			document.body.style['background-color'] = 'white'		
+		}, 500)
+	}
+}
+
+},{}],5:[function(require,module,exports){
 var canvas = require('../canvas')
 
 module.exports = function(id) {
@@ -223,7 +269,7 @@ module.exports = function(id) {
 
 
 
-},{"../canvas":3}],5:[function(require,module,exports){
+},{"../canvas":3}],6:[function(require,module,exports){
 var canvas = require('../canvas')
 
 module.exports = function(id) {
@@ -245,7 +291,7 @@ module.exports = function(id) {
 
 
 
-},{"../canvas":3}],6:[function(require,module,exports){
+},{"../canvas":3}],7:[function(require,module,exports){
 var canvas = require('../canvas')
 
 module.exports = function(id) {
@@ -260,6 +306,7 @@ module.exports = function(id) {
 	canvas.add({
 		id: 'scooter-left-' + id,
 		cl: 'scooter-left',	
+		lane: lane,
 		elId: img,
 		type: 'image',
 		x: window.config.laneWidth * lane,
@@ -269,7 +316,7 @@ module.exports = function(id) {
 	})
 }
 
-},{"../canvas":3}],7:[function(require,module,exports){
+},{"../canvas":3}],8:[function(require,module,exports){
 var canvas = require('../canvas')
 
 module.exports = function(id) {
@@ -283,7 +330,8 @@ module.exports = function(id) {
 
 	canvas.add({
 		id: 'scooter-right-' + id,
-		cl: 'scooter-right',	
+		cl: 'scooter-right',
+		lane: lane,
 		elId: img,
 		type: 'image',
 		x: window.config.laneWidth * lane,
@@ -293,17 +341,61 @@ module.exports = function(id) {
 	})
 }
 
-},{"../canvas":3}],8:[function(require,module,exports){
+},{"../canvas":3}],9:[function(require,module,exports){
+var canvas = require('../canvas')
+
+module.exports = function(id) {
+	var imgs = ['side-1-inv']
+	var imgI = Math.floor(Math.random() * imgs.length)
+	var img = imgs[imgI]
+
+	canvas.add({
+		id: 'side-left-' + id,
+		cl: 'side-left',	
+		elId: img,
+		type: 'image',
+		x: 0,
+		y: - window.config.laneWidth,
+		width: window.config.laneWidth * 2,
+		height: window.config.laneWidth
+	})
+}
+
+},{"../canvas":3}],10:[function(require,module,exports){
+var canvas = require('../canvas')
+
+module.exports = function(id) {
+	var imgs = ['side-1']
+	var imgI = Math.floor(Math.random() * imgs.length)
+	var img = imgs[imgI]
+
+	canvas.add({
+		id: 'side-right-' + id,
+		cl: 'side-right',	
+		elId: img,
+		type: 'image',
+		x: window.config.laneWidth * 12,
+		y: - window.config.laneWidth,
+		width: window.config.laneWidth * 2,
+		height: window.config.laneWidth
+	})
+}
+
+},{"../canvas":3}],11:[function(require,module,exports){
 var canvas = require('./canvas')
+var collision = require('./collision')
 
 module.exports = function() {
+	collision.initRisk()
 	var objs = window.config.objs
 	moveLoop(0, objs, function() {
+		collision.risks()
 		canvas.draw()
 	})
 }
 
 function moveLoop(count, objs, callback) {
+
 	if(count === objs.length) { callback() }
 	else {
 		var o = objs[count]
@@ -315,6 +407,7 @@ function moveLoop(count, objs, callback) {
 				canvas.remove(id)
 			} else {
 				canvas.set(id, {y: newY})
+				checkRisk(newY, 5, [8,9,10])
 			} 
 		} else if(o.cl === 'car-left') {
 			var newY = oldY + (window.config.gameH / 100) * 2.5
@@ -322,6 +415,7 @@ function moveLoop(count, objs, callback) {
 				canvas.remove(id)
 			} else {
 				canvas.set(id, {y: newY})
+				checkRisk(newY, 5, [3,4,5])
 			} 		
 		} else if(o.cl === 'scooter-right') {
 			var newY = oldY - (window.config.gameH / 100) * 1
@@ -329,6 +423,7 @@ function moveLoop(count, objs, callback) {
 				canvas.remove(id)
 			} else {
 				canvas.set(id, {y: newY})
+				checkRisk(newY, 3, [o.lane])
 			}	
 		} else if(o.cl === 'scooter-left') {
 			var newY = oldY + (window.config.gameH / 100) * 4
@@ -336,6 +431,23 @@ function moveLoop(count, objs, callback) {
 				canvas.remove(id)
 			} else {
 				canvas.set(id, {y: newY})
+				checkRisk(newY, 3, [o.lane])
+			} 
+		} else if(o.cl === 'side-left') {
+			var newY = oldY + (window.config.gameH / 100) * 1
+			if(newY > window.config.gameH) {
+				canvas.remove(id)
+			} else {
+				canvas.set(id, {y: newY})
+				checkRisk(newY, 1, [1,2])
+			} 
+		} else if(o.cl === 'side-right') {
+			var newY = oldY + (window.config.gameH / 100) * 1
+			if(newY > window.config.gameH) {
+				canvas.remove(id)
+			} else {
+				canvas.set(id, {y: newY})
+				checkRisk(newY, 1, [13,14])
 			} 
 		}
 		count = count + 1
@@ -343,8 +455,17 @@ function moveLoop(count, objs, callback) {
 	}
 }
 
+function checkRisk(y, h, lanes) {
+	var laneWidth = window.config.laneWidth
+	var riskStart = window.config.gameH / 2 + laneWidth * 1
+	var riskEnd = window.config.gameH / 2 + laneWidth * 2
+	if(y > riskStart - laneWidth * h && y < riskEnd) {
+		collision.addRisk(lanes)
+	}
+}
 
-},{"./canvas":3}],9:[function(require,module,exports){
+
+},{"./canvas":3,"./collision":4}],12:[function(require,module,exports){
 var canvas = require('./canvas')
 
 module.exports = function() {
@@ -386,6 +507,7 @@ module.exports = function() {
 			width: window.config.laneWidth,
 			height: window.config.laneWidth * 3
 		})
+		window.config.x = w/2 - window.config.laneWidth / 2
 		canvas.setByClass('car-right', {
 			x: window.config.laneWidth * 8,
 			width: window.config.laneWidth * 3,
@@ -406,7 +528,16 @@ module.exports = function() {
 			width: window.config.laneWidth,
 			height: window.config.laneWidth * 3
 		})
-
+		canvas.setByClass('side-left', {
+			x: 0,
+			width: window.config.laneWidth * 2,
+			height: window.config.laneWidth
+		})
+		canvas.setByClass('scooter-left', {
+			x: window.config.laneWidth * 12,
+			width: window.config.laneWidth * 2,
+			height: window.config.laneWidth
+		})
 		var swipeArea = document.getElementById('swipe-area')
 		swipeArea.style.width = w + 'px'
 		swipeArea.style.top = (h - 50 - 20) + 'px'
@@ -450,7 +581,7 @@ function positionCursor(cursor, x) {
 	window.config.x = x
 }
 
-},{"./canvas":3}],10:[function(require,module,exports){
+},{"./canvas":3}],13:[function(require,module,exports){
 var resize = require('./lib/resize')
 var render = require('./lib/render')
 var addBase = require('./lib/canvas-add-base')
@@ -468,7 +599,7 @@ window.onload = function() {
 		},50)
 		setInterval(function() {
 			addObjects()
-		},3000)
+		}, window.config.speed.add)
 	})
 }
 
@@ -478,7 +609,8 @@ function setConfig(callback) {
 		objs: [],
 		count: 0,
 		speed: {
-			nb: 3
+			nb: 3,
+			add: 3000
 		}
 	}
 	callback()
@@ -496,4 +628,4 @@ setInterval(function() {
 */
 
 
-},{"./lib/canvas-add-base":1,"./lib/canvas-add-objects":2,"./lib/render":8,"./lib/resize":9}]},{},[10]);
+},{"./lib/canvas-add-base":1,"./lib/canvas-add-objects":2,"./lib/render":11,"./lib/resize":12}]},{},[13]);

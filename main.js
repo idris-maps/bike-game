@@ -15,7 +15,7 @@ window.onload = function() {
 		},50)
 		setInterval(function() {
 			addObjects()
-		},3000)
+		}, window.config.speed.add)
 	})
 }
 
@@ -25,7 +25,8 @@ function setConfig(callback) {
 		objs: [],
 		count: 0,
 		speed: {
-			nb: 3
+			nb: 3,
+			add: 3000
 		}
 	}
 	callback()
