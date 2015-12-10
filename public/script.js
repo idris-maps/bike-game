@@ -43,19 +43,76 @@ module.exports = function() {
 		width: 0,
 		height: 0
 	})
-/*
 	canvas.add({
-		id: 'text',
-		type: 'text',
-		cl: 'text',
-		text: 'hello',
-		fontFamily: 'Comic Sans MS',
-		fontSize: 30,
-		x: 50,
-		y: 50,
-		fill: 'red'
+		id: 'score-rect',
+		cl: 'score',
+		type: 'rect',
+		x: 0,
+		y: 0,
+		width: 0,
+		height: 0,
+		fill: 'black'
 	})
-*/
+	canvas.add({
+		id: 'score-text',
+		cl: 'score',
+		type: 'text',
+		text: 0,
+		fontFamily: 'Arial',
+		x: 0,
+		y: 0,
+		fill: 'white'
+	})
+	canvas.add({
+		id: 'score-life-0',
+		cl: 'score',
+		elId: 'star',
+		type: 'image',
+		x: 0,
+		y: 0,
+		width: 0,
+		height: 0
+	})
+	canvas.add({
+		id: 'score-life-1',
+		cl: 'score',
+		elId: 'star',
+		type: 'image',
+		x: 0,
+		y: 0,
+		width: 0,
+		height: 0
+	})
+	canvas.add({
+		id: 'score-life-2',
+		cl: 'score',
+		elId: 'star',
+		type: 'image',
+		x: 0,
+		y: 0,
+		width: 0,
+		height: 0
+	})
+	canvas.add({
+		id: 'score-life-3',
+		cl: 'score',
+		elId: 'star',
+		type: 'image',
+		x: 0,
+		y: 0,
+		width: 0,
+		height: 0
+	})
+	canvas.add({
+		id: 'score-life-4',
+		cl: 'score',
+		elId: 'star',
+		type: 'image',
+		x: 0,
+		y: 0,
+		width: 0,
+		height: 0
+	})
 }
 
 },{"./canvas":4}],2:[function(require,module,exports){
@@ -570,6 +627,12 @@ function moveLoop(count, objs, callback) {
 				canvas.set(id, {y: newY})
 				checkCoin(newY, 1, o.lane, o.id, 'cash')
 			}
+		} else if(o.id === 'score-text') {
+			canvas.set('score-text', { text: window.config.score.points.toString() })
+		} else if(o.id.substring(0, 11) === 'score-life-') {
+			var index = +o.id.substring(11) + 1
+			if(window.config.score.life < index) { canvas.set(o.id, { opacity: 0.2 }) }
+			else { canvas.set(o.id, { opacity: 1 })  }
 		}
 		count = count + 1
 		moveLoop(count, objs, callback)
@@ -593,7 +656,6 @@ function checkCoin(y, h, lane, id, type) {
 		collision.addCoin(lane, id, type)
 	}
 }
-
 
 },{"./canvas":4,"./collision":5}],13:[function(require,module,exports){
 var canvas = require('./canvas')
@@ -668,6 +730,41 @@ module.exports = function() {
 			width: window.config.laneWidth * 2,
 			height: window.config.laneWidth
 		})
+		canvas.set('score-rect', {
+			width: w,
+			height: window.config.laneWidth
+		})
+		canvas.set('score-text', {
+			x: window.config.laneWidth * 0.2,
+			y: window.config.laneWidth * 0.8,
+			fontSize: window.config.laneWidth * 0.8
+		})
+		canvas.set('score-life-0', {
+			x: window.config.laneWidth * 9,
+			width: window.config.laneWidth,
+			height: window.config.laneWidth
+		})
+		canvas.set('score-life-1', {
+			x: window.config.laneWidth * 10,
+			width: window.config.laneWidth,
+			height: window.config.laneWidth 
+		})
+		canvas.set('score-life-2', {
+			x: window.config.laneWidth * 11,
+			width: window.config.laneWidth,
+			height: window.config.laneWidth
+		})
+		canvas.set('score-life-3', {
+			x: window.config.laneWidth * 12,
+			width: window.config.laneWidth,
+			height: window.config.laneWidth
+		})
+		canvas.set('score-life-4', {
+			x: window.config.laneWidth * 13,
+			width: window.config.laneWidth,
+			height: window.config.laneWidth
+		})
+
 
 		var swipeArea = document.getElementById('swipe-area')
 		swipeArea.style.width = w + 'px'
