@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.28959899"
-     inkscape:cx="1067.6403"
-     inkscape:cy="433.1434"
+     inkscape:zoom="0.81910963"
+     inkscape:cx="-173.84808"
+     inkscape:cy="267.80509"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -57,6 +57,131 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect4000-3-5"
+       width="3.8329406"
+       height="45.357143"
+       x="427.65756"
+       y="406.54013"
+       ry="3.3114729"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-1-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       d="m 416.84496,401.77326 c -0.0389,-5.17075 6.29739,-6.34345 6.18718,0 0.43559,6.86241 -6.40786,6.16468 -6.18718,0 z"
+       id="path3799-3-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-1-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#3e9ade;stroke:none"
+       d="m 419.97759,412.23551 c -0.0427,-5.88592 -3.69125,-6.86994 -3.03046,-8.33376 0.57742,-1.00763 1.22708,-1.89049 2.71478,-1.32582 l 3.97748,7.00793 z"
+       id="path3819-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-1-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       d="m 434.87734,424.41255 c -0.0389,-4.53326 6.29739,-5.56138 6.18718,0 0.43559,6.01636 -6.40786,5.40465 -6.18718,0 z"
+       id="path3799-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-1-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect4000-9"
+       width="3.8329406"
+       height="45.357143"
+       x="428.3158"
+       y="332.57034"
+       ry="3.3114729"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-1-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#3e9ade;stroke:none"
+       d="m 418.86774,405.54189 c 7.49385,-0.26149 15.05623,0.18247 21.00362,0.37408 0.93255,5.9966 1.35173,12.53867 0.38896,20.54905 -0.65421,2.2017 -4.19693,1.59071 -4.66747,0.21245 -0.008,-3.54796 1.73521,-8.84771 -0.19448,-10.47427 -12.42325,0.0263 -16.67501,-0.0365 -16.53063,-10.66131 z"
+       id="path4020-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-1-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#333333;stroke:none"
+       d="m 413.71408,360.09104 1.84754,1.96393 c 8.78781,-4.51606 18.09047,-6.13184 28.68549,-0.4676 l 1.65306,-1.49633 c -11.50908,-7.05498 -21.96057,-4.54895 -32.18609,0 z"
+       id="path4046-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-1-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff794b;stroke:none"
+       d="m 414.20028,363.08369 c -4.60015,-7.24128 9.02176,-7.41984 2.91716,0.74817 -4.81309,5.42417 -5.06706,14.7762 -2.62544,18.61052 l -2.23651,2.24449 c -1.1866,-1.35789 -3.44709,-13.81326 1.94479,-21.60318 z"
+       id="path4022-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-1-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff794b;stroke:none"
+       d="m 446.08169,363.12155 c 4.44562,-7.24128 -8.71872,-7.41983 -2.81917,0.74817 4.65142,5.42418 4.89685,14.7762 2.53725,18.61053 l 2.16139,2.24449 c 1.14673,-1.3579 3.33129,-13.81326 -1.87947,-21.60319 z"
+       id="path4022-9-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-1-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff9933;stroke:none"
+       d="m 414.10304,380.10438 -3.79232,3.64729 c 2.52395,2.58834 6.68878,6.00116 10.11284,6.17234 l -1.73439,16.35527 c -0.007,9.46293 22.88319,7.05317 22.15458,1.32006 l -1.84754,-17.39477 c 7.08768,-0.20571 8.94298,-3.4308 10.988,-6.54642 l -4.27851,-2.99264 c -2.10251,3.50848 -5.06403,4.86897 -8.45979,5.14361 l -14.29413,-0.28057 c -4.30908,0.008 -6.78168,-2.37575 -8.84874,-5.42417 z"
+       id="path4044-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-1-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff794b;stroke:none"
+       d="m 432.77291,382.62942 0.87515,2.80561 c -2.11453,1.68589 -4.07615,1.46019 -5.93157,-0.0935 l 1.16686,-2.71209 z"
+       id="path3795-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-1-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#990000;stroke:none"
+       d="m 427.03581,370.37828 c 4.31826,-5.9119 14.85369,-2.70153 10.98802,5.70472 -2.28692,-6.36719 -6.68635,-5.87729 -10.98802,-5.70472 z"
+       id="path3797-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-1-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ff3300;fill-opacity:1;stroke:none"
+       id="path4042-7"
+       sodipodi:cx="339.91071"
+       sodipodi:cy="220.26396"
+       sodipodi:rx="6.875"
+       sodipodi:ry="6.7410712"
+       d="m 346.78571,220.26396 a 6.875,6.7410712 0 1 1 -13.75,0 6.875,6.7410712 0 1 1 13.75,0 z"
+       transform="matrix(1.0890764,0,0,1.0474271,60.25046,145.88693)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-1-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
     <path
        style="fill:#009900;stroke:none"
        d="m 659.17869,275.37546 0,15.16125 c 0,10.82398 20.00665,10.82398 20.00665,0 l 0,-15.16125 z"
@@ -262,13 +387,6 @@
        inkscape:export-xdpi="112.3586"
        inkscape:export-ydpi="112.3586" />
     <rect
-       style="fill:#808080;fill-opacity:1;stroke:none"
-       id="rect2993-9"
-       width="1087.1428"
-       height="1302.8572"
-       x="-1781.0555"
-       y="-610.04382" />
-    <rect
        style="fill:#4d4d4d;fill-opacity:1;stroke:none"
        id="rect4000-3"
        width="3.8329406"
@@ -318,103 +436,154 @@
        d="m -170,202.36218 40,50 -60,30 60,10 -30,60 60,-50 10,60 20,-60 60,40 -40,-60 60,-30 -70,0 40,-60 -60,50 -10,-80 -20,70 z"
        id="path3017"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccccccccccc" />
+       sodipodi:nodetypes="ccccccccccccccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/expl-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
     <path
        style="fill:#ff9933;stroke:none"
        d="m -90,177.36218 5,75 55,-50 -40,55 60,0 -50,25 40,50 -50,-40 -20,55 -5,-55 -55,45 30,-50 -60,-5 60,-30 -35,-40 50,30 z"
        id="path3787"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccccccccccc" />
+       sodipodi:nodetypes="ccccccccccccccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/expl-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
     <path
        style="fill:#990000;stroke:none"
        d="m -380,202.36218 c -25,20 -23.93627,52.38162 30,50 -31.96913,4.27563 -50,15 -50,30 0,40 36.505,15.24529 60,10 -30.72364,16.54606 -50,55 -30,60 25,5 40,0 60,-50 -3.05528,20 -15,60 10,60 50,0 37.40414,-16.55751 30,-45 40.85753,56.43891 55,35.00001 60,30 5,-5 15,-34.99999 -40,-60 55,35.00001 50,-10 50,-35 -0.36449,-25.19164 -32.95352,-9.07248 -60,-5 65,-29.99999 50,-35 30,-55 -24.47415,-17.89504 -51.85578,7.42665 -55,35 -3.33333,-26.66667 30,-65 -15,-65 -40,0 -38.13177,14.34304 -25,55 -17.31178,-12.94424 -30,-35 -55,-15 z"
        id="path3017-3"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccscccccccc" />
+       sodipodi:nodetypes="ccccccccscccccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/expl-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
     <path
        style="fill:#ff9933;stroke:none"
        d="m -300,177.36218 5,75 55,-50 -40,55 60,0 -50,25 40,50 -50,-40 -20,55 -5,-55 -55,45 30,-50 -60,-5 60,-30 -35,-40 50,30 z"
        id="path3787-1"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccccccccccc" />
+       sodipodi:nodetypes="ccccccccccccccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/expl-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
     <path
        style="fill:#333333;stroke:none"
        d="m -605,182.36218 c -5,10 -10,65 15,70 -20,5 -20,15 -20,30 0,40 6.505,35.24529 30,30 -30.72364,16.54606 -20,35 0,40 25,5 50,10 55,-30 -3.05528,20 -10,40 15,40 50,0 52.40414,3.44249 45,-25 20,20.00001 35,25 50,20 5,-20 10,-44.99999 -45,-70 55,35.00001 50,-10 50,-35 -0.36449,-25.19164 -2.95352,-19.07248 -30,-15 40,-20 36.5289,-41.65589 15,-60 -23.07734,-19.66348 -51.85578,7.42665 -55,35 -3.33333,-26.66667 45,-50 -30,-50 -40,0 -45,10 -45,30 -17.31178,-12.94424 -35.68218,-38.63564 -50,-10 z"
        id="path3017-3-1"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="scccccccccccscscs" />
+       sodipodi:nodetypes="scccccccccccscscs"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/expl-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
     <path
        style="fill:#cccccc;stroke:none"
        d="m -575,257.36218 c -39.8199,7.6695 -29.50363,21.94661 -20,40 -10.21646,-24.12987 3.38155,-31.97107 20,-40 z"
        id="path3837"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/expl-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
     <path
        style="fill:#cccccc;stroke:none"
        d="m -561.69241,197.73342 c -38.3194,-41.96027 -37.98919,-5.77096 -37.88068,23.77086 0.68076,-42.86555 15.91988,-44.94183 37.88068,-23.77086 z"
        id="path3837-6"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/expl-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
     <path
        style="fill:#cccccc;stroke:none"
        d="m -420,212.36218 c -3.52072,-40.39864 -18.78589,-31.61026 -37.72337,-24.01974 25.05507,-7.67269 31.45165,6.66168 37.72337,24.01974 z"
        id="path3837-7"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/expl-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
     <path
        style="fill:#cccccc;stroke:none"
        d="m -455,337.36218 c 44.75924,35.00931 40,5 25,-25 15,45 0.17349,42.22737 -25,25 z"
        id="path3837-6-6"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/expl-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
     <path
        style="fill:#cccccc;stroke:none"
        d="m -485,202.36218 c 15,-45 -25,-35 -45,-30 25,0 45,-10 45,30 z"
        id="path3837-5"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/expl-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
     <path
        style="fill:#cccccc;stroke:none"
        d="m -520,332.36218 c -13.38367,31.79954 20.1462,25.34833 36.91113,22.12273 -20.83345,-0.41956 -37.69655,6.3673 -36.91113,-22.12273 z"
        id="path3837-5-2"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/expl-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
     <path
        style="fill:#cccccc;stroke:none"
        d="m -580.43143,314.59133 c -6.79964,39.97763 10.19061,35.33086 30.43143,32.77085 -26.18072,1.09399 -28.74843,-14.3914 -30.43143,-32.77085 z"
        id="path3837-7-3"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/expl-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
     <path
        style="fill:#cccccc;stroke:none"
        d="m -450.86953,289.07129 c 39.00787,11.08296 36.22568,-6.31016 35.86953,-26.70911 -1.74361,26.14548 -17.41586,27.02354 -35.86953,26.70911 z"
        id="path3837-7-2"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/expl-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
     <path
        style="fill:#cccccc;stroke:none"
        d="m -519.64184,212.32832 c -40.1068,-5.99081 -35.11783,10.90212 -32.14953,31.0871 -1.62255,-26.15328 13.80782,-29.03322 32.14953,-31.0871 z"
        id="path3837-7-1"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/expl-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
     <path
        style="fill:#cccccc;stroke:none"
        d="m -460.84209,261.27113 c 8.32119,-39.68883 -8.8341,-35.69421 -29.15791,-33.90895 26.2034,-0.0935 28.17794,15.47864 29.15791,33.90895 z"
        id="path3837-7-0"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/expl-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
     <path
        style="fill:#cccccc;stroke:none"
        d="m -544.49347,270.32122 c -13.91786,38.08856 3.63261,36.59129 24.00264,37.73425 -25.94683,-3.6591 -25.6715,-19.35351 -24.00264,-37.73425 z"
        id="path3837-7-6"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/expl-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
     <path
        style="fill:#cccccc;stroke:none"
        d="m -496.15245,319.44839 c 40.27589,4.72211 34.75628,-12.00496 31.15245,-32.08621 2.4471,26.08905 -12.88469,29.45452 -31.15245,32.08621 z"
        id="path3837-7-02"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/expl-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
     <rect
        style="fill:#4d4d4d;fill-opacity:1;stroke:none"
        id="rect4000"
@@ -2228,5 +2397,372 @@
        inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-3.png"
        inkscape:export-xdpi="112.3586"
        inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#990000;fill-opacity:1;stroke:none;opacity:0.61181435"
+       d="m 427.80656,451.93933 c 1.04885,-0.0797 1.18379,-0.26908 0.55727,-0.78226 l -0.51096,-0.41854 -0.0848,-17.41365 -0.0848,-17.41365 -1.08292,-0.10713 c -2.19129,-0.2168 -4.47418,-1.0293 -5.45461,-1.94134 -0.90272,-0.83977 -1.5743,-2.31791 -2.17516,-4.78759 -0.26031,-1.0699 -0.64888,-2.07735 -1.26375,-3.27652 l -0.88787,-1.7316 0.005,-1.83573 c 0.006,-2.223 0.29312,-3.03287 1.46237,-4.12657 0.41133,-0.38475 0.85014,-0.85563 0.97514,-1.0464 0.29975,-0.45747 0.661,-2.90318 0.78497,-5.31438 l 0.0996,-1.93701 -0.44273,-0.0919 c -2.30256,-0.47815 -4.67759,-1.85797 -7.77544,-4.51729 -1.57216,-1.34961 -1.59441,-1.378 -1.57696,-2.01291 0.01,-0.35419 0.0491,-0.5238 0.0875,-0.37692 0.1047,0.40064 0.29228,0.32334 0.51393,-0.21178 0.16121,-0.38918 0.16333,-0.88205 0.0113,-2.63243 -0.56891,-6.55189 0.0604,-11.0636 2.13372,-15.29842 l 0.76078,-1.55387 -0.31274,-1.29368 c -0.5776,-2.38936 -0.33068,-3.17078 1.25886,-3.9837 0.84923,-0.43431 0.90655,-0.4427 1.84465,-0.26984 1.48002,0.2727 1.98706,0.22272 4.21399,-0.41542 1.13309,-0.32469 3.26857,-0.81893 4.74551,-1.09831 l 2.68534,-0.50796 0.10258,-10.23086 c 0.0564,-5.62697 0.16418,-10.62686 0.23948,-11.11087 0.18999,-1.22126 0.77094,-1.91698 1.6134,-1.93216 0.56693,-0.0102 0.64212,0.0396 1.03108,0.68358 0.23075,0.38203 0.49514,0.98291 0.58752,1.33529 0.11023,0.42043 0.19421,4.16886 0.2443,10.90336 0.042,5.64447 0.12046,10.2634 0.17439,10.26429 0.26417,0.004 4.01099,0.61193 4.67734,0.75846 0.41904,0.0922 1.8263,0.48447 3.12726,0.87182 2.32891,0.69342 2.38132,0.70155 3.39975,0.52787 1.18224,-0.20163 1.83015,-0.025 2.60361,0.70966 0.93065,0.884 1.083,1.78699 0.55864,3.31106 -0.16786,0.48791 -0.30521,1.0218 -0.30521,1.18642 0,0.16463 0.28354,0.92644 0.63009,1.69292 2.21212,4.89265 2.87605,10.23391 2.02795,16.31457 l -0.23453,1.68147 0.54176,0.55481 0.54175,0.5548 -0.3201,0.60547 c -1.50254,2.84201 -4.46256,4.87767 -8.10052,5.57088 -2.28777,0.43593 -2.10663,0.30084 -2.10357,1.56872 0.002,0.60285 0.067,1.71415 0.14567,2.46954 0.62369,5.98929 1.10738,11.76991 1.12367,13.42921 0.0107,1.09113 0.0764,5.49957 0.14605,9.79654 0.16013,9.8844 0.0926,10.49172 -1.23621,11.12252 -0.70487,0.3346 -2.08565,0.34793 -2.6998,0.0261 -0.56822,-0.29779 -1.17351,-0.9398 -1.54678,-1.64062 -0.22053,-0.41405 -0.28415,-0.86002 -0.28301,-1.98386 0.001,-1.25815 0.0589,-1.58083 0.43634,-2.44167 0.64555,-1.47246 0.83602,-2.49146 0.69078,-3.69566 -0.23747,-1.96884 -0.62355,-2.25593 -3.03389,-2.25593 l -1.47824,0 -0.1012,9.49964 c -0.0557,5.22481 -0.10173,12.93326 -0.10237,17.12989 l -10e-4,7.63023 -0.83721,0.68672 c -0.46048,0.3777 -0.83771,0.73823 -0.83829,0.80118 -6.1e-4,0.063 -0.60191,0.10207 -1.33632,0.0869 -0.87208,-0.018 -1.0706,-0.0476 -0.57227,-0.0854 z m 11.36905,-66.81793 c 1.86966,-0.37002 3.11522,-1.07736 4.91289,-2.78996 0.86505,-0.82411 1.73314,-1.5832 1.92909,-1.68686 0.67372,-0.3564 0.83948,-1.08536 0.90951,-3.9997 0.12476,-5.19234 -0.56875,-7.88195 -3.0483,-11.82215 -0.68111,-1.08235 -1.46777,-2.44861 -1.74812,-3.03613 -0.68717,-1.44009 -0.79057,-1.55033 -1.86259,-1.98593 -1.40877,-0.57244 -6.9106,-1.90549 -7.86441,-1.90549 -0.22333,0 -0.24789,0.45884 -0.24789,4.63263 l 0,4.63264 1.19591,0.082 c 0.93092,0.0638 1.44659,0.19892 2.32722,0.60976 2.90742,1.35639 3.66505,3.46223 2.67674,7.43993 -0.23983,0.96523 -0.54134,2.19365 -0.67003,2.72982 -0.26712,1.11294 -1.35078,2.85746 -2.31754,3.73087 -0.33388,0.30164 -0.95288,0.72368 -1.37556,0.93787 -0.86578,0.43872 -0.92906,0.64865 -0.53558,1.77669 0.36656,1.05087 0.48198,1.09327 2.66657,0.97971 1.04915,-0.0545 2.4226,-0.20109 3.05209,-0.32567 z m -11.25485,-0.5774 c 0.15175,-0.40904 0.23773,-0.86403 0.19105,-1.01108 -0.0467,-0.14706 -0.51214,-0.49478 -1.03438,-0.77272 -2.3149,-1.23202 -4.23479,-3.98462 -4.22827,-6.06222 0.004,-1.1771 0.42305,-2.63616 1.01811,-3.54233 0.61175,-0.93157 2.17597,-2.51299 3.56532,-3.60452 l 0.90809,-0.71344 0,-5.34132 0,-5.34132 -1.25899,0.0903 c -1.97864,0.14188 -6.76862,1.46863 -7.79744,2.15977 -0.2821,0.18952 -0.73705,0.79507 -1.09902,1.46286 -0.33971,0.62671 -0.99577,1.72319 -1.45793,2.43661 -1.97742,3.05257 -2.95595,5.43611 -3.35176,8.16436 -0.25142,1.73296 -0.25175,5.57404 -5.7e-4,6.47263 0.12977,0.46419 0.43349,0.91662 0.97685,1.45511 0.4337,0.42981 1.29059,1.30495 1.90419,1.94475 2.19765,2.29148 4.49522,3.01576 9.40953,2.96625 l 1.97931,-0.0199 0.27591,-0.74372 0,0 z"
+       id="path5376"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-1-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect4000-3-4-7"
+       width="3.8329403"
+       height="45.357143"
+       x="-322.1098"
+       y="406.4733"
+       ry="3.3114729"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-2-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       d="m 332.9224,401.70643 c 0.0389,-5.17076 -6.29738,-6.34345 -6.18718,0 -0.43559,6.86241 6.40786,6.16468 6.18718,0 z"
+       id="path3799-3-6-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-2-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#3e9ade;stroke:none"
+       d="m 329.78977,412.16868 c 0.0427,-5.88592 3.69125,-6.86994 3.03046,-8.33376 -0.57741,-1.00763 -1.22707,-1.89049 -2.71478,-1.32582 l -3.97748,7.00793 z"
+       id="path3819-5-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-2-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       d="m 314.89002,424.34572 c 0.0389,-4.53326 -6.29739,-5.56138 -6.18717,0 -0.4356,6.01636 6.40785,5.40464 6.18717,0 z"
+       id="path3799-9-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-2-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect4000-7-5"
+       width="3.8329403"
+       height="45.357143"
+       x="-321.45157"
+       y="332.50351"
+       ry="3.3114729"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-2-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#3e9ade;stroke:none"
+       d="m 330.89962,405.47506 c -7.49385,-0.26149 -15.05623,0.18247 -21.00362,0.37408 -0.93254,5.9966 -1.35173,12.53867 -0.38895,20.54904 0.6542,2.20171 4.19692,1.59072 4.66746,0.21246 0.008,-3.54796 -1.73521,-8.84771 0.19448,-10.47427 12.42325,0.0263 16.67501,-0.0365 16.53063,-10.66131 z"
+       id="path4020-5-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-2-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#333333;stroke:none"
+       d="m 336.05328,360.02421 -1.84754,1.96393 c -8.78781,-4.51606 -18.09047,-6.13184 -28.68549,-0.4676 l -1.65306,-1.49633 c 11.50908,-7.05498 21.96057,-4.54895 32.18609,0 z"
+       id="path4046-5-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-2-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff794b;stroke:none"
+       d="m 335.56709,363.01686 c 4.60014,-7.24128 -9.02176,-7.41984 -2.91717,0.74817 4.8131,5.42417 5.06706,14.7762 2.62544,18.61051 l 2.23651,2.2445 c 1.18661,-1.35789 3.44709,-13.81326 -1.94478,-21.60318 z"
+       id="path4022-5-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-2-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff794b;stroke:none"
+       d="m 303.68567,363.05472 c -4.44562,-7.24128 8.71873,-7.41983 2.81917,0.74817 -4.65142,5.42418 -4.89685,14.7762 -2.53725,18.61053 l -2.16139,2.24449 c -1.14673,-1.3579 -3.33128,-13.81326 1.87947,-21.60319 z"
+       id="path4022-9-6-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-2-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff9933;stroke:none"
+       d="m 335.66433,380.03755 3.79232,3.64729 c -2.52396,2.58834 -6.68879,6.00116 -10.11285,6.17234 l 1.7344,16.35526 c 0.007,9.46293 -22.8832,7.05318 -22.15459,1.32007 l 1.84755,-17.39477 c -7.08769,-0.20571 -8.94298,-3.4308 -10.988,-6.54642 l 4.2785,-2.99264 c 2.10251,3.50848 5.06403,4.86897 8.45979,5.14361 l 14.29413,-0.28057 c 4.30908,0.008 6.78168,-2.37575 8.84875,-5.42417 z"
+       id="path4044-9-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-2-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff794b;stroke:none"
+       d="m 316.99445,382.56258 -0.87514,2.80562 c 2.11453,1.68589 4.07614,1.46019 5.93157,-0.0935 l -1.16687,-2.71209 z"
+       id="path3795-8-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-2-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#990000;stroke:none"
+       d="m 322.73155,370.31145 c -4.31826,-5.91191 -14.85369,-2.70153 -10.98801,5.70471 2.28692,-6.36719 6.68635,-5.87728 10.98801,-5.70471 z"
+       id="path3797-6-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-2-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ff3300;fill-opacity:1;stroke:none"
+       id="path4042-3-2"
+       sodipodi:cx="339.91071"
+       sodipodi:cy="220.26396"
+       sodipodi:rx="6.875"
+       sodipodi:ry="6.7410712"
+       d="m 346.78571,220.26396 a 6.875,6.7410712 0 1 1 -13.75,0 6.875,6.7410712 0 1 1 13.75,0 z"
+       transform="matrix(-1.0890764,0,0,1.0474271,689.51689,145.82011)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-2-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#990000;fill-opacity:1;stroke:none;opacity:0.6"
+       d="m 319.42552,451.41261 c -0.94293,-0.87388 -0.92167,-0.64947 -1.03526,-10.92623 -0.0571,-5.16185 -0.11187,-12.77464 -0.1218,-16.9173 -0.0163,-6.80097 -0.0415,-7.52311 -0.25946,-7.43948 -0.13276,0.051 -1.02885,0.0926 -1.99132,0.0926 l -1.74993,0 -0.2944,0.64857 c -0.23387,0.51523 -0.29509,1.00054 -0.29775,2.36056 -0.003,1.70781 -0.002,1.71499 0.62591,2.94323 0.61597,1.20522 0.62786,1.25799 0.56284,2.49679 -0.0824,1.56968 -0.52183,2.54775 -1.46287,3.25592 -1.50482,1.13244 -3.28606,0.72771 -4.14572,-0.94198 -0.47605,-0.92461 -0.47791,-1.03255 -0.16889,-9.77116 0.23317,-6.59369 0.24494,-7.91142 0.0819,-9.16794 -0.099,-0.76292 0.15635,-3.63595 1.15183,-12.95974 0.25091,-2.35011 0.48854,-4.41788 0.52807,-4.59502 0.0674,-0.30216 -0.0201,-0.33265 -1.41361,-0.49265 -3.92336,-0.45047 -5.91046,-1.57306 -8.42332,-4.75865 -0.59064,-0.74876 -1.07305,-1.44919 -1.07201,-1.55651 10e-4,-0.10732 0.2414,-0.35027 0.53412,-0.53989 0.61893,-0.40093 0.61415,-0.35391 0.28796,-2.83399 -0.18496,-1.40632 -0.22586,-2.63523 -0.16843,-5.06191 0.10977,-4.63902 0.63356,-7.09168 2.21612,-10.37712 l 0.88209,-1.83125 -0.34614,-0.83933 c -0.43141,-1.04612 -0.46981,-2.44083 -0.0882,-3.2047 0.48974,-0.98034 2.23519,-1.50295 3.52172,-1.05447 0.41441,0.14447 0.75398,0.0756 2.5789,-0.52299 3.39621,-1.114 4.68235,-1.42147 6.8092,-1.62785 0.74263,-0.0721 1.39502,-0.1758 1.44974,-0.23051 0.0547,-0.0547 0.12239,-4.84932 0.15037,-10.65467 l 0.0509,-10.55517 0.36869,-0.63741 c 0.44215,-0.7644 1.04667,-1.27015 1.51822,-1.27015 0.37705,0 1.20426,0.84098 1.4802,1.50485 0.17755,0.42715 0.38463,9.17943 0.40899,17.28613 l 0.0136,4.52243 1.25899,0.18101 c 2.01963,0.29036 3.98646,0.75065 6.5701,1.53758 2.35823,0.71827 2.42635,0.72961 2.97671,0.49573 0.30979,-0.13165 0.96034,-0.24091 1.44568,-0.24279 0.73229,-0.003 0.99193,0.073 1.52605,0.44556 1.24911,0.87138 1.45542,2.05249 0.69262,3.96524 l -0.35952,0.90151 0.79736,1.53062 c 0.94251,1.80929 1.58633,3.69997 2.06379,6.06064 0.29967,1.48165 0.347,2.17887 0.3445,5.07493 -0.003,2.92503 -0.17058,5.18907 -0.4785,6.44652 -0.0627,0.25603 0.0602,0.4864 0.4876,0.91377 l 0.57143,0.57143 -1.28002,1.20171 c -2.70772,2.54206 -5.38776,4.21359 -7.65152,4.77223 l -1.02983,0.25413 -0.001,0.55034 c -6.1e-4,0.30269 0.14914,1.9533 0.33266,3.66804 0.36266,3.38848 0.29955,3.21735 1.48597,4.02923 0.39033,0.26712 0.78788,0.73365 1.04031,1.22084 0.37694,0.72751 0.41333,0.96197 0.47038,3.03062 l 0.0618,2.2421 -0.86031,1.1915 c -0.92806,1.28535 -0.99125,1.45341 -1.44743,3.84952 -0.74414,3.90896 -2.33729,5.35309 -6.72872,6.09942 l -1.60235,0.27232 -0.11924,16.69718 c -0.0822,11.5075 -0.17261,16.90326 -0.29094,17.3602 -0.0944,0.36467 -0.39225,0.89688 -0.6618,1.18269 -0.6,0.63618 -1.2188,0.68892 -1.79692,0.15314 l 0,0 z m -3.36371,-65.82849 c 0.16746,-0.10655 0.66253,-1.74814 0.66253,-2.19686 0,-0.11539 -0.4292,-0.44475 -0.95378,-0.7319 -1.14067,-0.62441 -2.32175,-1.79027 -2.90428,-2.86686 -0.61339,-1.1336 -1.78834,-5.92073 -1.78819,-7.28561 1.4e-4,-1.28415 0.5446,-2.59662 1.45471,-3.50673 0.68058,-0.68058 2.15472,-1.41217 3.07475,-1.52595 0.36244,-0.0448 0.968,-0.12003 1.3457,-0.16714 l 0.68672,-0.0857 0,-4.64689 0,-4.6469 -0.57226,0.076 c -2.14082,0.28416 -3.03567,0.44395 -4.34716,0.77627 -1.77329,0.44932 -4.0665,1.25011 -4.39906,1.53614 -0.13117,0.11282 -0.35534,0.5758 -0.49815,1.02885 -0.14281,0.45306 -0.81376,1.67297 -1.491,2.71093 -2.81047,4.3074 -3.57133,6.79024 -3.57133,11.65391 0,2.90332 0.19245,4.49015 0.61457,5.06743 0.16601,0.22704 0.22621,0.2336 0.44878,0.0489 0.1647,-0.13669 0.294,-0.15796 0.35988,-0.0592 1.72074,2.57943 4.29571,4.29811 7.16283,4.78089 0.9318,0.1569 4.48383,0.18737 4.71474,0.0404 z m 10.42924,-0.18479 c 1.60021,-0.0946 2.68624,-0.23934 3.3573,-0.44755 1.70865,-0.53016 3.4594,-1.83233 4.95909,-3.68847 0.5081,-0.62886 0.96902,-1.05579 1.13984,-1.05579 0.55534,0 0.68948,-0.88907 0.69078,-4.57814 10e-4,-3.2929 -0.0161,-3.49414 -0.42025,-4.91052 -0.69426,-2.43293 -1.43236,-3.97773 -3.07445,-6.43466 -0.85022,-1.27212 -1.63324,-2.60509 -1.74003,-2.96215 -0.16319,-0.54564 -0.30878,-0.70656 -0.91272,-1.00882 -1.48629,-0.74385 -5.85323,-1.93745 -7.92913,-2.16724 l -0.95378,-0.10558 0,5.48107 0,5.48106 0.72487,0.69062 c 0.39868,0.37983 1.11246,0.97486 1.58618,1.32229 1.92617,1.41264 2.87247,3.22117 2.87586,5.49622 0.003,1.87355 -0.73207,3.53767 -2.18467,4.94738 -0.69014,0.66975 -2.09725,1.54094 -2.75588,1.70624 -0.37389,0.0938 -0.4227,0.16624 -0.35148,0.52131 0.0455,0.22679 0.22265,0.73853 0.3937,1.13721 l 0.31099,0.72487 0.9592,-0.005 c 0.52756,-0.003 2.02362,-0.0677 3.32458,-0.14457 l 0,-1e-5 z"
+       id="path5388"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-2-red.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
+       id="rect5498"
+       width="480.0318"
+       height="853.38989"
+       x="-100"
+       y="522.36218"
+       ry="1.7662358" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#99ccff;fill-opacity:1;stroke:none"
+       id="path5500-1"
+       sodipodi:cx="112.5"
+       sodipodi:cy="839.86218"
+       sodipodi:rx="147.5"
+       sodipodi:ry="107.5"
+       d="m 260,839.86218 a 147.5,107.5 0 1 1 -295,0 147.5,107.5 0 1 1 295,0 z"
+       transform="matrix(1.2942242,0,0,1.7757959,-2.5322482,-557.62993)" />
+    <path
+       style="fill:#0066cc;fill-opacity:1;stroke:none"
+       d="m 70.358171,1085.1806 -11.9375,19.875 c 25.7,12.8797 54.702099,20.125 85.406299,20.125 0.5109,0 1.0212,-0.027 1.5312,-0.031 l -15,-19.9688 -59.999999,-20 z"
+       id="path5500-1-1"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ff9933;fill-opacity:1;stroke:none"
+       d="M 179.53803,971.81799 9.5380314,1021.818 -15.524469,1044.3805 c 19.1394008,25.8542 44.6519,46.6964 74.2187,60.2187 l 5.8438,2.2188 114.999999,-135.00001 z"
+       id="path5500-1-5"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#171717;fill-opacity:1;stroke:none"
+       d="m 244.60508,1069.6914 -45,5 -20,25 -10,20 15,0 20,-35 35,-5 z"
+       id="path5622"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 149.60508,1104.6914 c -4.64872,6.1841 -3.37115,11.2571 5,15 35.0194,-11.0788 62.29501,-21.7306 90,-45 14.66678,-15.6128 26.50086,-23.4163 40,-35 l -10,-5 c -14.68772,11.6146 -25,21 -42,36 -27.31267,24.5606 -54.08604,27.0535 -83,34 z"
+       id="path5613"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="fill:#ff794b;stroke:none"
+       d="m 246.9196,1032.3852 c 0.46591,48.0833 62.68548,20.3062 19.6371,-2.3619 z"
+       id="path5593-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:#ff794b;stroke:none"
+       d="m 159.60508,1094.6914 c 12.4812,46.4411 90,-15 30,-10 z"
+       id="path5593"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:#ff9933;fill-opacity:1;stroke:none"
+       d="m 245.12061,1043.0097 c -0.21297,-0.6863 -4.49908,-44.40454 -4.74345,-48.38297 -0.1918,-3.12268 -0.77208,0.0646 -1.04371,-5.38436 -0.12649,-2.53739 -6.41758,-2.98859 -9.72837,-4.55101 -5.27841,-2.491 -6.49222,-4.47211 -22.96887,-6.64258 -9.70862,-1.27891 -17.77847,2.69578 -22.03113,1.64258 -3.62034,-0.28205 -30.07576,21.84734 -33.145,24.67814 l -32.01073,29.5261 c -19.844266,20.7958 -49.844269,25.7958 -60.398749,0.1584 l -2.05174,-2.4887 c -3.89732,-4.7272 -5.82484,-8.7748 -6.50954,-13.6693 -0.20162,-1.4413 -0.31119,-2.6642 -0.24347,-2.7176 0.0677,-0.053 9.08483,-3.4503 20.03804,-7.5488 l 19.91491,-7.4517 0,-19.28911 0,-19.28916 1.75496,0.60925 c 5.36521,1.86257 14.707019,3.80239 22.051379,4.57896 4.52971,0.47895 16.24653,0.47741 20.75424,-0.003 15.91275,-1.69498 30.46464,-6.4808 43.11959,-14.18115 l 3.28975,-2.00175 31.65673,4.86615 c 31.22908,4.80042 31.69165,4.8816 34.24175,6.00943 8.10556,3.58483 13.80526,9.69383 16.59912,17.79113 0.74084,2.14715 14.84669,53.66305 14.84674,54.22175 1e-5,0.142 -2.36918,0.2625 -5.26486,0.2679 -5.70869,0.011 -8.78063,0.446 -13.20034,1.8711 -4.77976,1.5413 -9.91928,4.1207 -13.35163,6.7009 -1.02355,0.7695 -1.48577,0.9687 -1.57562,0.6791 l 0,0 z"
+       id="path5583"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssssccccsscscccsscscssscsssccc" />
+    <path
+       style="fill:#ff9933;fill-opacity:1;stroke:none"
+       d="m 116.62836,1097.3498 c -46.239559,-8.2136 -44.008359,-7.7767 -50.069239,-9.8045 -6.49417,-2.1728 -11.8901,-4.9844 -22.44483,-11.695 l -9.28007,-5.9002 -13.54745,-13.8122 c -16.1887392,-16.5052 -20.8758092,-22.5016 -24.1226892,-30.8617 -2.08222,-5.3613 -2.45461,-7.3651 -2.44662,-13.1647 0.007,-5.4235 0.0616,-5.753 1.61606,-9.846 2.07082,-5.45237 3.21027,-7.66917 5.63056,-10.95421 3.46819,-4.70733 9.5899892,-9.12035 18.1968792,-13.11757 3.58234,-1.66371 6.50187,-2.36592 37.76554,-9.08336 18.63568,-4.00415 34.32008,-7.28109 34.85423,-7.28211 l 0.97117,-0.002 -0.007,19.09969 -0.007,19.09966 -20.10127,7.5118 -20.10127,7.5117 0.29674,3.0632 c 0.52412,5.4103 2.71143,10.3677 6.65712,15.088 3.8638,7.3543 -5.46849,-3.7836 5.43016,5.6986 6.98047,6.0732 15.21646,11.8182 26.25172,18.312 l 6.836513,4.023 53.766566,9.7745 53.76657,9.7746 -6.86498,2.5054 c -22.25377,8.1215 -30.60369,12.3002 -38.05767,19.0456 -1.43568,1.2992 -2.96824,2.3395 -3.40569,2.3116 -0.4375,-0.028 -19.15054,-3.311 -41.58458,-7.296 z"
+       id="path5585"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csscssccsssccccccsccscccssccc" />
+    <path
+       style="opacity:0.40506334;fill:#000000;fill-opacity:1;stroke:none"
+       d="m 4.6050818,1039.6914 c 20.5982992,22.7533 53.4128192,38.526 84.9999992,55 -31.31954,-14.3518 -67.37709,-22.3862 -84.9999992,-55 z"
+       id="path5589"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="opacity:0.28270042;fill:#000000;fill-opacity:1;stroke:none"
+       d="m 109.60508,1059.6914 c -27.422049,-9.3303 -53.792369,-19.2615 -69.999999,-35 23.33333,15.2766 46.66667,26.2174 69.999999,35 z"
+       id="path5591"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ff794b;fill-opacity:1;stroke:none"
+       id="path5520"
+       sodipodi:cx="-935"
+       sodipodi:cy="737.36218"
+       sodipodi:rx="65"
+       sodipodi:ry="85"
+       d="m -870,737.36218 a 65,85 0 1 1 -130,0 65,85 0 1 1 130,0 z"
+       transform="matrix(1.4648338,0,0,1,1497.6535,166.13867)" />
+    <path
+       style="opacity:0.34599155;fill:#000000;fill-opacity:1;stroke:none"
+       d="m 141.96894,912.99642 c 28.0816,52.19688 63.79915,7.76428 51.76289,0.33942 4.86528,-1.15285 -11.04271,41.39626 -51.76289,-0.33942 z"
+       id="path5522"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:#ff3300;stroke:none"
+       d="m 33.267591,901.05602 c -5,-75 109.999999,-120 164.999999,-55 -75,-15 -112.432669,18.01621 -164.999999,55 z"
+       id="path5524"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:#990000;stroke:none"
+       d="m 83.267591,866.05602 c 71.116249,-49.56777 169.390119,-134.67513 114.999999,-20 -51.62995,-8.84605 -82.19098,6.8883 -114.999999,20 z"
+       id="path5526"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path5528"
+       sodipodi:cx="-615"
+       sodipodi:cy="744.86218"
+       sodipodi:rx="20"
+       sodipodi:ry="17.5"
+       d="m -595,744.86218 a 20,17.5 0 1 1 -40,0 20,17.5 0 1 1 40,0 z"
+       transform="translate(734.99412,147.14689)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path5528-5"
+       sodipodi:cx="-615"
+       sodipodi:cy="744.86218"
+       sodipodi:rx="20"
+       sodipodi:ry="17.5"
+       d="m -595,744.86218 a 20,17.5 0 1 1 -40,0 20,17.5 0 1 1 40,0 z"
+       transform="matrix(0.89209216,0,0,0.89209216,724.38696,213.22395)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="path5528-1"
+       sodipodi:cx="-615"
+       sodipodi:cy="744.86218"
+       sodipodi:rx="20"
+       sodipodi:ry="17.5"
+       d="m -595,744.86218 a 20,17.5 0 1 1 -40,0 20,17.5 0 1 1 40,0 z"
+       transform="matrix(0.57915944,0,0,0.57915944,479.12773,462.54819)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="path5528-1-8"
+       sodipodi:cx="-615"
+       sodipodi:cy="744.86218"
+       sodipodi:rx="20"
+       sodipodi:ry="17.5"
+       d="m -595,744.86218 a 20,17.5 0 1 1 -40,0 20,17.5 0 1 1 40,0 z"
+       transform="matrix(0.52520552,0,0,0.52520552,501.15865,490.6592)" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       d="m 173.26759,956.05602 c 20,10 -50,30 -60,10 -5,-15 -2.61554,-39.54151 60,-10 z"
+       id="path5573"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:#990000;stroke:none"
+       d="m 111.26759,955.05602 c 3.25221,1.2882 6.17657,1.85512 8,0 2.72034,1.67793 5.70424,1.77456 9,0 4.98215,2.42412 9.16466,1.4498 13,-1 3.98542,1.29689 8.23298,3.24912 10,-1 5.42581,1.75914 6.86251,-0.47082 9,-2 3,0 24,8 15,11 -3,-0.80915 -6,-1.96193 -9,0 -3.61054,-0.45265 -7.08669,-0.65894 -9,2 -6.50735,-1.68137 -11.15679,0.35309 -16,2 -4.53463,-0.74243 -9.0306,-1.21422 -13,2 -1.79458,-2.14147 -5.55715,-1.33093 -9,-1 -1.89396,-0.61611 -3.32682,-2.46181 -6,-1 -1.14345,-3.18989 -2.26314,-6.40352 -2,-11 z"
+       id="path5575"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccc" />
+    <path
+       style="fill:#ff3300;stroke:none"
+       d="m 206.60508,1080.6914 -4,4 -7,0 z"
+       id="path5624"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#ff3300;stroke:none"
+       d="m 162.60508,1100.6914 -4,4 5,-1 c -0.54968,-0.7837 -1.05049,-1.6162 -1,-3 z"
+       id="path5626"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#9c9c9c;fill-opacity:1;stroke:none"
+       d="m -19.143829,1032.8976 c -11.59058,-19.5976 -20.07163,-40.90401 -24.00118,-60.29673 -1.75499,-8.66101 -4.33152,-32.61561 -4.35552,-40.49411 l -0.0104,-3.42906 7.63024,5.55072 c 13.71664,9.97836 42.0658308,28.56161 53.41733,35.01574 l 11.11457,6.31942 -7.69659,3.79246 c -18.9510492,9.33804 -27.216139,27.35116 -20.5724192,44.83596 l 2.38463,6.2759 -5.74194,5.2867 c -3.1580698,2.9077 -6.0913608,5.3086 -6.5184308,5.3352 -0.42708,0.027 -2.96969,-3.6598 -5.65025,-8.1922 z"
+       id="path5802"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#9c9c9c;fill-opacity:1;stroke:none"
+       d="m 149.8898,1070.2728 c -25.40151,-4.6126 -46.25209,-8.4419 -46.33462,-8.5095 -0.0825,-0.068 0.40158,-0.8142 1.07582,-1.6592 0.92242,-1.156 1.44039,-1.4693 2.09241,-1.2654 1.43628,0.4491 1.79011,0.4402 0.75127,-0.019 -0.53817,-0.2378 -0.92622,-0.5891 -0.86233,-0.7808 0.0639,-0.1917 6.9069,-8.3268 15.20666,-18.0781 13.6164,-15.9977 15.19742,-17.7095 16.18524,-17.5244 0.60212,0.1128 5.8535,1.4042 11.66973,2.8697 27.95481,7.0437 61.42909,12.2676 90.31886,14.095 l 4.64004,0.2935 0.007,1.3392 c 0.0107,2.1616 0.53563,2.6486 1.89491,1.7579 0.63077,-0.4133 1.19939,-0.6765 1.26361,-0.585 0.0642,0.091 0.4429,1.2398 0.8415,2.5519 0.39859,1.3121 1.40827,3.5208 2.24373,4.9082 0.83546,1.3874 1.51901,2.6788 1.51901,2.8699 0,0.191 -4.5859,4.3921 -10.19088,9.3357 l -10.19088,8.9883 -16.03073,1.8102 c -8.81689,0.9957 -16.15987,1.8212 -16.31772,1.8345 -0.15786,0.013 -1.03191,0.9533 -1.94234,2.0889 l -1.65534,2.0647 -46.18455,-8.3866 0,0 z"
+       id="path5804"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#9c9c9c;fill-opacity:1;stroke:none"
+       d="m 185.06775,1119.652 c 0,-0.1415 1.097,-2.1719 2.43777,-4.512 2.2475,-3.9226 2.57595,-4.2948 4.2084,-4.769 5.26829,-1.5305 14.2342,-7.1632 16.84,-10.5796 0.64176,-0.8414 1.98107,-1.9423 2.97626,-2.4466 5.96568,-3.0228 19.99598,-11.9566 24.75853,-15.765 0.98954,-0.7913 2.00778,-1.4387 2.26276,-1.4387 0.51465,0 3.55636,-2.7893 10.12683,-9.2863 2.40426,-2.3774 6.37556,-6.0972 8.8251,-8.2661 l 4.45372,-3.9435 3.31565,0.2264 c 5.60842,0.3831 10.89258,-1.4956 13.92668,-4.9512 2.18314,-2.4865 2.69191,-4.1598 2.43084,-7.9948 l -0.22831,-3.3539 1.41553,-1.0796 c 1.41201,-1.077 1.43638,-1.0794 9.81673,-0.9625 l 8.40121,0.1172 -2.85142,3.9671 c -26.0172,36.1972 -63.89417,62.3582 -106.42599,73.5066 -2.84877,0.7467 -5.51949,1.4547 -5.93493,1.5733 -0.41545,0.1185 -0.75536,0.1 -0.75536,-0.042 z"
+       id="path5806"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#9c9c9c;fill-opacity:1;stroke:none"
+       d="m 208.18888,1086.3643 c -0.56403,-0.287 -1.5913,-0.6851 -2.28283,-0.8848 -0.69152,-0.1996 -1.28028,-0.4318 -1.30835,-0.516 -0.0281,-0.084 0.17514,-0.1928 0.45157,-0.2414 1.48505,-0.2606 10.38699,-1.4837 10.43677,-1.434 0.0593,0.059 -3.0209,1.8514 -5.12711,2.983 l -1.14454,0.615 -1.02551,-0.5218 0,0 z"
+       id="path5808"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#9c9c9c;fill-opacity:1;stroke:none"
+       d="m 137.74689,1114.8741 -7.3304,-9.7714 -16.41703,-5.4715 c -9.02936,-3.0094 -16.363146,-5.4895 -16.297296,-5.5115 0.0658,-0.022 4.341046,0.712 9.500446,1.631 5.15939,0.919 17.44969,3.0838 27.31177,4.8108 20.56432,3.6011 18.45604,3.2144 18.15996,3.3304 -0.1259,0.049 -0.8933,0.2361 -1.70534,0.4151 l -1.47643,0.3253 -0.61339,0.9439 c -1.68424,2.5917 -2.3187,5.0395 -1.84208,7.1069 0.55461,2.4056 2.80142,4.7203 6.26449,6.4536 1.18065,0.5909 1.27121,0.6122 1.87092,0.44 0.68249,-0.196 16.67749,-5.4662 17.00569,-5.6032 0.10965,-0.046 -0.42256,1.1591 -1.18269,2.6776 -0.76012,1.5185 -1.38205,2.8302 -1.38205,2.9151 0,0.1018 2.56599,0.1542 7.55002,0.1542 l 7.55001,0 0.24408,-0.472 c 0.13425,-0.2596 0.27892,-0.4372 0.32149,-0.3946 0.0426,0.043 -0.002,0.226 -0.0993,0.4076 -0.0972,0.1816 -0.14197,0.4208 -0.0995,0.5315 0.0489,0.1273 -0.0729,0.2277 -0.33161,0.2733 -0.22486,0.04 -1.95855,0.3868 -3.85264,0.7716 -10.63524,2.1602 -21.11936,3.3551 -32.51617,3.706 l -3.30256,0.1017 -7.3304,-9.7714 0,0 z"
+       id="path5810"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#5d5d5d;fill-opacity:1;stroke:none"
+       d="m 21.837491,973.73569 c -1.66178,-1.08596 -9.23691,-5.78933 -16.8336192,-10.45193 -14.64133,-8.98634 -49.8221008,-32.6596 -51.4495908,-34.6206 -0.66647,-0.80305 -0.77291,-3.86241 -0.34323,-9.86571 0.51726,-7.22698 0.84245,-8.61741 1.91879,-8.20439 0.71278,0.27352 7.17594,4.13702 14.36258,8.58556 20.377491,12.61367 39.4165404,23.04039 66.51783,36.42842 19.81596,9.78908 24.53318,12.43396 22.87646,12.82652 -6.4179,1.52073 -33.23142,7.36766 -33.59617,7.32595 -0.2374,-0.0271 -1.79127,-0.93786 -3.45305,-2.02382 z"
+       id="path5814"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#5d5d5d;fill-opacity:1;stroke:none"
+       d="m 235.92664,1038.6745 c -25.47259,-2.0482 -54.64125,-6.5466 -78.55691,-12.1151 -8.3089,-1.9346 -16.19551,-3.7524 -17.52578,-4.0396 l -2.41869,-0.5221 7.9668,-9.3404 c 5.34648,-6.2683 8.41346,-9.2088 9.32479,-8.9402 35.6917,10.5198 48.96442,14.0007 72.99478,19.1439 8.0638,1.7259 14.80742,3.284 14.98583,3.4624 0.32016,0.3202 1.84434,12.9075 1.57117,12.9754 -0.0775,0.019 -3.83145,-0.2616 -8.34199,-0.6243 z"
+       id="path5816"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#5d5d5d;fill-opacity:1;stroke:none"
+       d="m 284.98873,1039.8046 c -0.15826,-0.4147 -2.61856,-1.9499 -5.46733,-3.4115 -4.28115,-2.1966 -4.78027,-2.6647 -2.87754,-2.699 1.26612,-0.023 2.43311,-0.4348 2.59332,-0.9154 0.19131,-0.5739 4.43854,-0.3973 12.37344,0.5146 6.64517,0.7637 12.19138,1.4928 12.32491,1.6203 0.13352,0.1274 -0.44918,1.4472 -1.2949,2.9329 l -1.53766,2.7012 -7.91324,0 c -4.35228,0 -8.04273,-0.3338 -8.201,-0.7485 l 0,0 z"
+       id="path5818"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-703.20258"
+       y="781.33618"
+       id="text5820"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5822"
+         x="-703.20258"
+         y="781.33618"
+         style="-inkscape-font-specification:Amatic SC Bold;font-family:Amatic SC;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">Road </tspan><tspan
+         sodipodi:role="line"
+         x="-703.20258"
+         y="831.33618"
+         id="tspan5824"
+         style="-inkscape-font-specification:Amatic SC Bold;font-family:Amatic SC;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">Fighter</tspan></text>
   </g>
 </svg>

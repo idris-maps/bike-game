@@ -8,7 +8,7 @@ window.onload = function() {
 		gameScreen.style.height = h + 'px'
 
 		var img = document.createElement('img')
-		img.src = 'img/splash.jpg'
+		img.src = 'img/splash.png'
 		img.id = 'splash-screen'
 		img.style.width = w + 'px'
 		img.style.height = h + 'px'
