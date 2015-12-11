@@ -40,6 +40,10 @@ function resetConfig(callback) {
 			points: 0,
 			life: 5,
 			boom: false
+		},
+		bikeImg: {
+			nb: 1,
+			red: false
 		}
 	}
 	callback()

@@ -36,7 +36,7 @@ module.exports = function() {
 	canvas.add({
 		id: 'bike',
 		cl: 'bike',
-		elId: 'bike',
+		elId: 'bike-1',
 		type: 'image',
 		x: 0,
 		y: 0,
@@ -380,9 +380,9 @@ function check(objs, bike) {
 			onGameOver()
 		}
 		else { 
-			canvas.set('bike', { elId: 'bike-red' })
+			window.config.bikeImg.red = true
 			setTimeout(function() {
-				canvas.set('bike', { elId: 'bike' })	
+				window.config.bikeImg.red = false	
 				window.config.score.boom = false
 			}, 500)
 		}
@@ -426,7 +426,8 @@ module.exports = function() {
 	canvas.add({
 		id: 'explosion',
 		cl: 'gameover',
-		type: 'rect',
+		type: 'image',
+		elId: 'expl-1',
 		x: x,
 		y: y,
 		width: w,
@@ -436,19 +437,19 @@ module.exports = function() {
 	canvas.draw()
 	setTimeout(function() {
 		canvas.set('explosion', {
-			fill: 'orange'
+			elId: 'expl-2'
 		})
 		canvas.draw()
-	}, 300)
+	}, 200)
 	setTimeout(function() {
 		canvas.set('explosion', {
-			fill: 'red'
+			elId: 'expl-3'
 		})
 		canvas.draw()
-	}, 600)
+	}, 400)
 	setTimeout(function() {
 		showScreen()
-	}, 900)
+	}, 600)
 }
 
 function showScreen() {
@@ -500,7 +501,10 @@ module.exports = function() {
 	var speedInt = setInterval(function() {
 		window.config.speed.nb = window.config.speed.nb + 1
 	}, 20000)
-	window.config.intervals = [renderInt, objInt, coinInt, speedInt]
+	var grindInt = setInterval(function() {
+		if(window.config.bikeImg.nb === 1) { window.config.bikeImg.nb = 2 } else { window.config.bikeImg.nb = 1 }
+	},300)
+	window.config.intervals = [renderInt, objInt, coinInt, speedInt, grindInt]
 }
 
 
@@ -508,7 +512,7 @@ module.exports = function() {
 var canvas = require('../canvas')
 
 module.exports = function(id) {
-	var imgs = ['car-1-inv', 'car-2-inv']
+	var imgs = ['car-1-inv', 'car-2-inv', 'car-3-inv', 'car-4-inv', 'car-5-inv']
 	var imgI = Math.floor(Math.random() * imgs.length)
 	var img = imgs[imgI]
 
@@ -530,7 +534,7 @@ module.exports = function(id) {
 var canvas = require('../canvas')
 
 module.exports = function(id) {
-	var imgs = ['car-1', 'car-2']
+	var imgs = ['car-1', 'car-2', 'car-3', 'car-4', 'car-5']
 	var imgI = Math.floor(Math.random() * imgs.length)
 	var img = imgs[imgI]
 
@@ -552,7 +556,7 @@ module.exports = function(id) {
 var canvas = require('../canvas')
 
 module.exports = function(id) {
-	var imgs = ['scooter-1-inv', 'scooter-2-inv']
+	var imgs = ['scooter-1-inv', 'scooter-2-inv', 'scooter-3-inv']
 	var imgI = Math.floor(Math.random() * imgs.length)
 	var img = imgs[imgI]
 
@@ -577,7 +581,7 @@ module.exports = function(id) {
 var canvas = require('../canvas')
 
 module.exports = function(id) {
-	var imgs = ['scooter-1', 'scooter-2']
+	var imgs = ['scooter-1', 'scooter-2', 'scooter-3']
 	var imgI = Math.floor(Math.random() * imgs.length)
 	var img = imgs[imgI]
 
@@ -602,7 +606,7 @@ module.exports = function(id) {
 var canvas = require('../canvas')
 
 module.exports = function(id) {
-	var imgs = ['side-1-inv']
+	var imgs = ['side-1', 'side-2', 'side-3']
 	var imgI = Math.floor(Math.random() * imgs.length)
 	var img = imgs[imgI]
 
@@ -622,7 +626,7 @@ module.exports = function(id) {
 var canvas = require('../canvas')
 
 module.exports = function(id) {
-	var imgs = ['side-1']
+	var imgs = ['side-1', 'side-2', 'side-3']
 	var imgI = Math.floor(Math.random() * imgs.length)
 	var img = imgs[imgI]
 
@@ -731,6 +735,20 @@ function moveLoop(count, objs, callback) {
 			var index = +o.id.substring(11) + 1
 			if(window.config.score.life < index) { canvas.set(o.id, { opacity: 0.2 }) }
 			else { canvas.set(o.id, { opacity: 0.8 })  }
+		} else if(o.id === 'bike') {
+			if(window.config.bikeImg.nb === 1) {
+				if(window.config.bikeImg.red === true) {
+					canvas.set('bike', {elId: 'bike-1-red'})
+				} else {
+					canvas.set('bike', {elId: 'bike-1'})
+				}  
+			} else { 
+				if(window.config.bikeImg.red === true) {
+					canvas.set('bike', {elId: 'bike-2-red'})
+				} else {
+					canvas.set('bike', {elId: 'bike-2'})
+				}   
+			}
 		}
 		count = count + 1
 		moveLoop(count, objs, callback)
@@ -944,7 +962,7 @@ window.onload = function() {
 		gameScreen.style.height = h + 'px'
 
 		var img = document.createElement('img')
-		img.src = 'img/splash.jpg'
+		img.src = 'img/splash.png'
 		img.id = 'splash-screen'
 		img.style.width = w + 'px'
 		img.style.height = h + 'px'
@@ -976,6 +994,10 @@ function resetConfig(callback) {
 			points: 0,
 			life: 5,
 			boom: false
+		},
+		bikeImg: {
+			nb: 1,
+			red: false
 		}
 	}
 	callback()
