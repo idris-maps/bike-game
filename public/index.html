@@ -9,7 +9,7 @@ html, body, #game {
 	margin: 0;
 	padding: 0;
 }
-html, body { background-color: black }
+html, body { background-color: black; font-family: sans-serif; }
 #swipe-area {
 	position: fixed;
 	width: 100%;
@@ -21,7 +21,6 @@ html, body { background-color: black }
 	width: 50px;
 	height: 50px;
 	border-radius: 25px;
-	background-color: black;
 	opacity: 0.5;
 	z-index: 1001
 }
@@ -30,16 +29,44 @@ html, body { background-color: black }
 	margin: auto;
 	overflow: hidden;
 }
-#canvas-container {
+#canvas-container, #splash {
 	position: fixed;
 	top: 0px;
 }
 
+#splash {
+	text-align: center
+}
+
+#game-over-score {
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+#game-over-btn {
+	margin: auto;
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0px;
+	font-weight: 400;
+	line-height: 1.42857;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-moz-user-select: none;
+	background-image: none;
+	border: 1px solid #B0B0B0;
+	border-radius: 4px;
+	color: #FFF;
+	background-color: #707070;
+}
 		</style>
 	</head>
 	<body>
 		<div id="game">
 			<div id="canvas-container"></div>
+			<div id="splash"></div>
 			<div id="swipe-area">
 				<div id="swipe-cursor"></div>
 			</div>

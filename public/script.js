@@ -204,7 +204,7 @@ function checkIfOk(cl) {
 	}
 }
 
-},{"./canvas":4,"./objects/car-left":7,"./objects/car-right":8,"./objects/scooter-left":9,"./objects/scooter-right":10,"./objects/side-left":11,"./objects/side-right":12}],4:[function(require,module,exports){
+},{"./canvas":4,"./objects/car-left":8,"./objects/car-right":9,"./objects/scooter-left":10,"./objects/scooter-right":11,"./objects/side-left":12,"./objects/side-right":13}],4:[function(require,module,exports){
 exports.init = function(canvasContainerId, config) {
 	var container = document.getElementById(canvasContainerId)
 	container.innerHTML = ''
@@ -336,6 +336,7 @@ exports.draw = function() {
 
 },{}],5:[function(require,module,exports){
 var canvas = require('./canvas')
+var onGameOver = require('./game-over')
 
 exports.initRisk = function() {
 	window.config.risk = []
@@ -376,7 +377,7 @@ function check(objs, bike) {
 		window.config.score.boom = true
 		window.config.score.life = window.config.score.life - 1
 		if(window.config.score.life === 0) { 
-			stopIntervals()
+			onGameOver()
 		}
 		else { 
 			canvas.set('bike', { elId: 'bike-red' })
@@ -409,13 +410,71 @@ function checkCoin(coin, bike) {
 	}
 }
 
-function stopIntervals() {
+
+
+},{"./canvas":4,"./game-over":6}],6:[function(require,module,exports){
+var canvas = require('./canvas')
+
+module.exports = function() {
 	for(i=0;i<window.config.intervals.length;i++) {
 		clearInterval(window.config.intervals[i])
 	}
+
+	var w = window.config.laneWidth * 5
+	var x = window.config.x - w/2
+	var y = window.config.gameH / 2 + window.config.laneWidth * 1.5 - w/2
+	canvas.add({
+		id: 'explosion',
+		cl: 'gameover',
+		type: 'rect',
+		x: x,
+		y: y,
+		width: w,
+		height: w,
+		fill: 'yellow'
+	})
+	canvas.draw()
+	setTimeout(function() {
+		canvas.set('explosion', {
+			fill: 'orange'
+		})
+		canvas.draw()
+	}, 300)
+	setTimeout(function() {
+		canvas.set('explosion', {
+			fill: 'red'
+		})
+		canvas.draw()
+	}, 600)
+	setTimeout(function() {
+		showScreen()
+	}, 900)
 }
 
-},{"./canvas":4}],6:[function(require,module,exports){
+function showScreen() {
+	var container = document.getElementById('canvas-container')
+	container.innerHTML = ''
+
+	var splash = document.getElementById('splash')
+	splash.style['background-color'] = 'black'
+
+	var theScore = document.createElement('p')
+	theScore.innerHTML = 'GAME OVER<br/><br/>' 
+		+ 'Your score: ' + window.config.score.points + '<br/><br/>'
+	var top = window.config.gameH * 0.3
+	theScore.style['margin-top'] = top + 'px'
+	theScore.id = 'game-over-score'
+	splash.appendChild(theScore)
+
+	var btn = document.createElement('button')
+	btn.id = 'game-over-btn'
+	btn.innerHTML = 'Play again'
+	splash.appendChild(btn)
+
+	btn.onclick = function() { window.location.reload() }
+}
+
+},{"./canvas":4}],7:[function(require,module,exports){
 var resize = require('./resize')
 var render = require('./render')
 var addBase = require('./canvas-add-base')
@@ -445,7 +504,7 @@ module.exports = function() {
 }
 
 
-},{"./canvas-add-base":1,"./canvas-add-coins":2,"./canvas-add-objects":3,"./render":13,"./resize":14}],7:[function(require,module,exports){
+},{"./canvas-add-base":1,"./canvas-add-coins":2,"./canvas-add-objects":3,"./render":14,"./resize":15}],8:[function(require,module,exports){
 var canvas = require('../canvas')
 
 module.exports = function(id) {
@@ -467,7 +526,7 @@ module.exports = function(id) {
 
 
 
-},{"../canvas":4}],8:[function(require,module,exports){
+},{"../canvas":4}],9:[function(require,module,exports){
 var canvas = require('../canvas')
 
 module.exports = function(id) {
@@ -489,7 +548,7 @@ module.exports = function(id) {
 
 
 
-},{"../canvas":4}],9:[function(require,module,exports){
+},{"../canvas":4}],10:[function(require,module,exports){
 var canvas = require('../canvas')
 
 module.exports = function(id) {
@@ -514,7 +573,7 @@ module.exports = function(id) {
 	})
 }
 
-},{"../canvas":4}],10:[function(require,module,exports){
+},{"../canvas":4}],11:[function(require,module,exports){
 var canvas = require('../canvas')
 
 module.exports = function(id) {
@@ -539,7 +598,7 @@ module.exports = function(id) {
 	})
 }
 
-},{"../canvas":4}],11:[function(require,module,exports){
+},{"../canvas":4}],12:[function(require,module,exports){
 var canvas = require('../canvas')
 
 module.exports = function(id) {
@@ -559,7 +618,7 @@ module.exports = function(id) {
 	})
 }
 
-},{"../canvas":4}],12:[function(require,module,exports){
+},{"../canvas":4}],13:[function(require,module,exports){
 var canvas = require('../canvas')
 
 module.exports = function(id) {
@@ -579,7 +638,7 @@ module.exports = function(id) {
 	})
 }
 
-},{"../canvas":4}],13:[function(require,module,exports){
+},{"../canvas":4}],14:[function(require,module,exports){
 var canvas = require('./canvas')
 var collision = require('./collision')
 
@@ -717,7 +776,7 @@ function orderObjs(callback) {
 	callback()
 }
 
-},{"./canvas":4,"./collision":5}],14:[function(require,module,exports){
+},{"./canvas":4,"./collision":5}],15:[function(require,module,exports){
 var canvas = require('./canvas')
 
 module.exports = function() {
@@ -729,6 +788,11 @@ module.exports = function() {
 		window.config.gameX = x
 		window.config.gameW = w
 		window.config.gameH = h
+
+		var splash = document.getElementById('splash')
+		splash.style.left = x + 'px'
+		splash.style.width = w + 'px'
+		splash.style.height = h + 'px'
 
 		var canvasContainer = document.getElementById('canvas-container')
 		canvasContainer.style.left = x + 'px'
@@ -869,12 +933,34 @@ function positionCursor(cursor, x) {
 	window.config.x = x
 }
 
-},{"./canvas":4}],15:[function(require,module,exports){
+},{"./canvas":4}],16:[function(require,module,exports){
 var game = require('./lib/game')
 
 window.onload = function() {
-	resetConfig(function() {
-		game()
+
+	getSize(function(w, h) {
+		var gameScreen = document.getElementById('game')
+		gameScreen.style.width = w + 'px'
+		gameScreen.style.height = h + 'px'
+
+		var img = document.createElement('img')
+		img.src = 'img/splash.jpg'
+		img.id = 'splash-screen'
+		img.style.width = w + 'px'
+		img.style.height = h + 'px'
+
+		var splash = document.getElementById('splash')
+		splash.style.width = w + 'px'
+		splash.style.height = h + 'px'
+		splash.appendChild(img)
+
+		img.onclick = function() {
+			document.getElementById('swipe-cursor').style['background-color'] = 'black'
+			splash.removeChild(img)
+			resetConfig(function() {
+				game()
+			})
+		}
 	})
 }
 
@@ -895,4 +981,17 @@ function resetConfig(callback) {
 	callback()
 }
 
-},{"./lib/game":6}]},{},[15]);
+function getSize(callback) {
+	var windowWidth = window.innerWidth
+	var windowHeight = window.innerHeight
+	if(windowWidth < windowHeight) {
+		var height = windowHeight
+		var width = windowHeight / 16 * 9
+	} else {
+		var height = windowHeight
+		var width = windowHeight / 16 * 9		
+	}
+	callback(width, height)
+}
+
+},{"./lib/game":7}]},{},[16]);
