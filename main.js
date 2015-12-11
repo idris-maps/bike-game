@@ -1,7 +1,8 @@
 var game = require('./lib/game')
 
 window.onload = function() {
-
+	var cursor = document.getElementById('swipe-cursor')
+	cursor.style.opacity = 0
 	getSize(function(w, h) {
 		var gameScreen = document.getElementById('game')
 		gameScreen.style.width = w + 'px'
@@ -19,7 +20,8 @@ window.onload = function() {
 		splash.appendChild(img)
 
 		img.onclick = function() {
-			document.getElementById('swipe-cursor').style['background-color'] = 'black'
+			var cursor = document.getElementById('swipe-cursor')
+			cursor.style.opacity = 0.5
 			splash.removeChild(img)
 			resetConfig(function() {
 				game()
