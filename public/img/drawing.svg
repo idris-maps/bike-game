@@ -24,17 +24,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="-142.6639"
-     inkscape:cy="815.75749"
+     inkscape:zoom="0.28959899"
+     inkscape:cx="1067.6403"
+     inkscape:cy="433.1434"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="false"
+     showgrid="true"
      inkscape:window-width="1870"
      inkscape:window-height="1030"
      inkscape:window-x="50"
      inkscape:window-y="0"
-     inkscape:window-maximized="1">
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true">
     <inkscape:grid
        type="xygrid"
        id="grid2985" />
@@ -47,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -55,6 +57,255 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <path
+       style="fill:#009900;stroke:none"
+       d="m 659.17869,275.37546 0,15.16125 c 0,10.82398 20.00665,10.82398 20.00665,0 l 0,-15.16125 z"
+       id="path5140-8-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#99ff66;fill-opacity:1;stroke:none"
+       id="path5111-8-5"
+       sodipodi:cx="660"
+       sodipodi:cy="287.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 680,287.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       transform="matrix(0.526491,0,0,0.3297163,321.69795,179.64116)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#009900;fill-opacity:1;stroke:none"
+       id="path5111-9-6-3"
+       sodipodi:cx="660"
+       sodipodi:cy="287.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 680,287.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       transform="matrix(0.46001147,0,0,0.2870425,365.64092,191.79991)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#99ff66;stroke:none;fill-opacity:1"
+       d="m 667.18112,274.36835 1.05297,0 c 0,-0.65944 2.10597,-0.98915 2.10597,0 l 1.05298,0 c 0,-1.64859 -4.21192,-1.64859 -4.21192,0 z"
+       id="path5138-9-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#009900;stroke:none"
+       d="m 629.00012,275.19689 0,15.16125 c 0,10.82398 20.00665,10.82398 20.00665,0 l 0,-15.16125 z"
+       id="path5140-8-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#99ff66;fill-opacity:1;stroke:none"
+       id="path5111-8-4"
+       sodipodi:cx="660"
+       sodipodi:cy="287.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 680,287.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       transform="matrix(0.526491,0,0,0.3297163,291.51938,179.46259)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#009900;fill-opacity:1;stroke:none"
+       id="path5111-9-6-2"
+       sodipodi:cx="660"
+       sodipodi:cy="287.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 680,287.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       transform="matrix(0.46001147,0,0,0.2870425,335.46235,191.62134)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#99ff66;stroke:none;fill-opacity:1"
+       d="m 637.00255,274.18978 1.05297,0 c 0,-0.65944 2.10597,-0.98915 2.10597,0 l 1.05298,0 c 0,-1.64859 -4.21192,-1.64859 -4.21192,0 z"
+       id="path5138-9-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#b2b2b2;fill-opacity:1;stroke:none"
+       d="m 664.90626,227.27289 -3.22768,24 5.37946,0 3.22768,-24 z"
+       id="path5005-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#b2b2b2;fill-opacity:1;stroke:none"
+       d="m 615,227.36218 3,24 -5,0 -3,-24 z"
+       id="path5005"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#f8f8f8;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 640,172.36218 -40,10 15,25 25,-5 25,5 15,-25 z"
+       id="path4882"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#b4b4b4;fill-opacity:1;stroke:none"
+       d="m 607.61714,194.85023 c -4.07774,-6.79629 -7.3945,-12.37646 -7.37059,-12.40038 0.0239,-0.0239 8.86064,-2.24805 19.63716,-4.94253 l 19.59367,-4.89904 0,12.45679 0,12.45679 -0.82546,0.20785 c -2.59645,0.6538 -4.90427,2.92086 -5.34051,5.2462 -0.0681,0.36288 -0.1372,0.65978 -0.15361,0.65978 -0.0164,0 -4.04313,0.80357 -8.94828,1.78571 -4.90514,0.98215 -8.97691,1.78572 -9.04838,1.78572 -0.0715,0 -3.46626,-5.5606 -7.544,-12.35689 z"
+       id="path4893"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#222222;fill-opacity:1;stroke:none"
+       id="rect4000-7-7-3"
+       width="9.9936543"
+       height="45.625"
+       x="-355.4184"
+       y="42.451473"
+       ry="4.9968271"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#009900;fill-opacity:1;stroke:none"
+       d="m 344,65.362183 c 5,-13 7,-13 12,0 0,26 4.35714,12 4.35714,22 0,10 -5,12.999997 -5,19.999997 l -10,0 c 0,-7 -5,-9.999997 -5,-19.999997 0,-10 3.64286,4 3.64286,-22 z"
+       id="path4665-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#006600;fill-opacity:1;stroke:none"
+       id="rect4844-4"
+       width="5.7880721"
+       height="39.223717"
+       x="347.08136"
+       y="59.350536"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#111111;fill-opacity:1;stroke:none"
+       d="m 217.25666,111.56511 c -0.0377,-5.17076 6.10617,-6.34345 5.99932,0 0.42236,6.86241 -6.2133,6.16468 -5.99932,0 z"
+       id="path3799-3-6-0-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#414141;fill-opacity:1;stroke:none"
+       d="m 220.29417,122.02736 c -0.0414,-5.88592 -3.57917,-6.86994 -2.93845,-8.33376 0.55988,-1.00763 1.18982,-1.89049 2.63236,-1.32582 l 3.85671,7.00793 z"
+       id="path3819-5-5-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#222222;fill-opacity:1;stroke:none"
+       id="rect4000-7-7"
+       width="9.9936543"
+       height="45.625"
+       x="-235.06123"
+       y="42.451473"
+       ry="4.9968271"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#111111;fill-opacity:1;stroke:none"
+       d="m 224,61.362183 c 5,1 7,1 12,0 0,26 4,16 4,26 0,10 -5,12.999997 -5,19.999997 l -10,0 c 0,-7 -5,-9.999997 -5,-19.999997 0,-10 4,0 4,-26 z"
+       id="path4665"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#222222;fill-opacity:1;stroke:none"
+       id="rect4000-7-7-0"
+       width="9.9183807"
+       height="45.35714"
+       x="-234.91838"
+       y="117.00504"
+       ry="4.9968271"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#808080;fill-opacity:1;stroke:none"
+       id="rect2993-9"
+       width="1087.1428"
+       height="1302.8572"
+       x="-1781.0555"
+       y="-610.04382" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect4000-3"
+       width="3.8329406"
+       height="45.357143"
+       x="337.49478"
+       y="246.68912"
+       ry="3.3114729"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       d="m 326.68218,241.92225 c -0.0389,-5.17075 6.29739,-6.34345 6.18718,0 0.43559,6.86241 -6.40786,6.16468 -6.18718,0 z"
+       id="path3799-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#3e9ade;stroke:none"
+       d="m 329.81481,252.3845 c -0.0427,-5.88592 -3.69125,-6.86994 -3.03046,-8.33376 0.57742,-1.00763 1.22708,-1.89049 2.71478,-1.32582 l 3.97748,7.00793 z"
+       id="path3819"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       d="m 344.71456,264.56154 c -0.0389,-4.53326 6.29739,-5.56138 6.18718,0 0.43559,6.01636 -6.40786,5.40465 -6.18718,0 z"
+       id="path3799"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
     <rect
        style="fill:#cccccc;fill-opacity:1;stroke:none"
        id="rect2987"
@@ -62,72 +313,30 @@
        height="0"
        x="40"
        y="52.362183" />
-    <rect
-       style="fill:#cccccc;fill-opacity:1;stroke:none"
-       id="rect2991"
-       width="40"
-       height="120"
-       x="320"
-       y="172.36218" />
-    <rect
-       style="fill:#cccccc;fill-opacity:1;stroke:none"
-       id="rect2993"
-       width="120"
-       height="200"
-       x="400"
-       y="172.36218" />
-    <rect
-       style="fill:#cccccc;fill-opacity:1;stroke:none"
-       id="rect2995"
-       width="80"
-       height="40"
-       x="600"
-       y="172.36218" />
-    <rect
-       style="fill:#cccccc;fill-opacity:1;stroke:none"
-       id="rect2989-3"
-       width="200"
-       height="200"
-       x="-190"
-       y="162.36218" />
     <path
-       style="fill:#d35f5f;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#990000;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m -170,202.36218 40,50 -60,30 60,10 -30,60 60,-50 10,60 20,-60 60,40 -40,-60 60,-30 -70,0 40,-60 -60,50 -10,-80 -20,70 z"
        id="path3017"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccccccc" />
     <path
-       style="fill:#ffe680;stroke:none"
+       style="fill:#ff9933;stroke:none"
        d="m -90,177.36218 5,75 55,-50 -40,55 60,0 -50,25 40,50 -50,-40 -20,55 -5,-55 -55,45 30,-50 -60,-5 60,-30 -35,-40 50,30 z"
        id="path3787"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccccccc" />
-    <rect
-       style="fill:#cccccc;fill-opacity:1;stroke:none"
-       id="rect2989-3-7"
-       width="200"
-       height="200"
-       x="-400"
-       y="162.36218" />
     <path
-       style="fill:#d35f5f;stroke:none"
-       d="m -380,202.36218 c -25,20 -23.93627,52.38162 30,50 -31.96913,4.27563 -50,15 -50,30 0,40 36.505,15.24529 60,10 -30.72364,16.54606 -50,55 -30,60 25,5 40,0 60,-50 -3.05528,20 -15,60 10,60 50,0 37.40414,-16.55751 30,-45 40.85753,56.43891 35,35 50,25 15,-10 25,-29.99999 -30,-55 55,35.00001 50,-10 50,-35 -0.36449,-25.19164 -32.95352,-9.07248 -60,-5 65,-29.99999 50,-35 30,-55 -24.47415,-17.89504 -51.85578,7.42665 -55,35 -3.33333,-26.66667 30,-65 -15,-65 -40,0 -38.13177,14.34304 -25,55 -17.31178,-12.94424 -30,-35 -55,-15 z"
+       style="fill:#990000;stroke:none"
+       d="m -380,202.36218 c -25,20 -23.93627,52.38162 30,50 -31.96913,4.27563 -50,15 -50,30 0,40 36.505,15.24529 60,10 -30.72364,16.54606 -50,55 -30,60 25,5 40,0 60,-50 -3.05528,20 -15,60 10,60 50,0 37.40414,-16.55751 30,-45 40.85753,56.43891 55,35.00001 60,30 5,-5 15,-34.99999 -40,-60 55,35.00001 50,-10 50,-35 -0.36449,-25.19164 -32.95352,-9.07248 -60,-5 65,-29.99999 50,-35 30,-55 -24.47415,-17.89504 -51.85578,7.42665 -55,35 -3.33333,-26.66667 30,-65 -15,-65 -40,0 -38.13177,14.34304 -25,55 -17.31178,-12.94424 -30,-35 -55,-15 z"
        id="path3017-3"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccccccccccc" />
+       sodipodi:nodetypes="ccccccccscccccccc" />
     <path
-       style="fill:#ffe680;stroke:none"
+       style="fill:#ff9933;stroke:none"
        d="m -300,177.36218 5,75 55,-50 -40,55 60,0 -50,25 40,50 -50,-40 -20,55 -5,-55 -55,45 30,-50 -60,-5 60,-30 -35,-40 50,30 z"
        id="path3787-1"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccccccc" />
-    <rect
-       style="fill:#cccccc;fill-opacity:1;stroke:none"
-       id="rect2989-3-7-0"
-       width="200"
-       height="200"
-       x="-610"
-       y="162.36218" />
     <path
        style="fill:#333333;stroke:none"
        d="m -605,182.36218 c -5,10 -10,65 15,70 -20,5 -20,15 -20,30 0,40 6.505,35.24529 30,30 -30.72364,16.54606 -20,35 0,40 25,5 50,10 55,-30 -3.05528,20 -10,40 15,40 50,0 52.40414,3.44249 45,-25 20,20.00001 35,25 50,20 5,-20 10,-44.99999 -45,-70 55,35.00001 50,-10 50,-35 -0.36449,-25.19164 -2.95352,-19.07248 -30,-15 40,-20 36.5289,-41.65589 15,-60 -23.07734,-19.66348 -51.85578,7.42665 -55,35 -3.33333,-26.66667 45,-50 -30,-50 -40,0 -45,10 -45,30 -17.31178,-12.94424 -35.68218,-38.63564 -50,-10 z"
@@ -207,60 +416,1817 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc" />
     <rect
-       style="fill:#666666;fill-opacity:1;stroke:none"
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
        id="rect4000"
-       width="4.4642859"
+       width="3.8329406"
        height="45.357143"
-       x="337.14285"
+       x="338.15302"
        y="172.71933"
-       ry="3.3114729" />
-    <rect
-       style="fill:#666666;fill-opacity:1;stroke:none"
-       id="rect4000-4"
-       width="4.4642859"
-       height="45.357143"
-       x="337.41071"
-       y="247.00504"
-       ry="3.3114729" />
+       ry="3.3114729"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
     <path
-       style="fill:#008000;stroke:none"
-       d="m 329.10714,242.18361 c 6.88092,-0.24965 13.82477,0.17421 19.28572,0.35714 l 0.35715,19.10715 -4.28572,0.71428 -0.17857,-10 c -11.40715,0.0251 -15.31116,-0.0348 -15.17858,-10.17857 z"
+       style="fill:#3e9ade;stroke:none"
+       d="m 328.70496,245.69088 c 7.49385,-0.26149 15.05623,0.18247 21.00362,0.37408 0.93255,5.9966 1.35173,12.53867 0.38896,20.54905 -0.65421,2.2017 -4.19693,1.59071 -4.66747,0.21245 -0.008,-3.54796 1.73521,-8.84771 -0.19448,-10.47427 -12.42325,0.0263 -16.67501,-0.0365 -16.53063,-10.66131 z"
        id="path4020"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccc" />
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#333333;stroke:none"
+       d="m 323.5513,200.24003 1.84754,1.96393 c 8.78781,-4.51606 18.09047,-6.13184 28.68549,-0.4676 l 1.65306,-1.49633 c -11.50908,-7.05498 -21.96057,-4.54895 -32.18609,0 z"
+       id="path4046"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff794b;stroke:none"
+       d="m 324.0375,203.23268 c -4.60015,-7.24128 9.02176,-7.41984 2.91716,0.74817 -4.81309,5.42417 -5.06706,14.7762 -2.62544,18.61052 l -2.23651,2.24449 c -1.1866,-1.35789 -3.44709,-13.81326 1.94479,-21.60318 z"
+       id="path4022"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff794b;stroke:none"
+       d="m 355.91891,203.27054 c 4.44562,-7.24128 -8.71872,-7.41983 -2.81917,0.74817 4.65142,5.42418 4.89685,14.7762 2.53725,18.61053 l 2.16139,2.24449 c 1.14673,-1.3579 3.33129,-13.81326 -1.87947,-21.60319 z"
+       id="path4022-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff9933;stroke:none"
+       d="m 323.94026,220.25337 -3.79232,3.64729 c 2.52395,2.58834 6.68878,6.00116 10.11284,6.17234 l -1.73439,16.35527 c -0.007,9.46293 22.88319,7.05317 22.15458,1.32006 l -1.84754,-17.39477 c 7.08768,-0.20571 8.94298,-3.4308 10.988,-6.54642 l -4.27851,-2.99264 c -2.10251,3.50848 -5.06403,4.86897 -8.45979,5.14361 L 332.789,225.67754 c -4.30908,0.008 -6.78168,-2.37575 -8.84874,-5.42417 z"
+       id="path4044"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff794b;stroke:none"
+       d="m 342.61013,222.77841 0.87515,2.80561 c -2.11453,1.68589 -4.07615,1.46019 -5.93157,-0.0935 l 1.16686,-2.71209 z"
+       id="path3795"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#990000;stroke:none"
+       d="m 336.87303,210.52727 c 4.31826,-5.9119 14.85369,-2.70153 10.98802,5.70472 -2.28692,-6.36719 -6.68635,-5.87729 -10.98802,-5.70472 z"
+       id="path3797"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
     <path
        sodipodi:type="arc"
-       style="fill:#d38d5f;fill-opacity:1;stroke:none"
+       style="fill:#ff3300;fill-opacity:1;stroke:none"
        id="path4042"
        sodipodi:cx="339.91071"
        sodipodi:cy="220.26396"
        sodipodi:rx="6.875"
        sodipodi:ry="6.7410712"
        d="m 346.78571,220.26396 a 6.875,6.7410712 0 1 1 -13.75,0 6.875,6.7410712 0 1 1 13.75,0 z"
-       transform="translate(-0.53571429,-1.4285714)" />
+       transform="matrix(1.0890764,0,0,1.0474271,-29.912319,-13.964081)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect4000-3-4"
+       width="3.8329403"
+       height="45.357143"
+       x="-292.50519"
+       y="246.68912"
+       ry="3.3114729"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       d="m 303.31779,241.92225 c 0.0389,-5.17076 -6.29738,-6.34345 -6.18718,0 -0.43559,6.86241 6.40786,6.16468 6.18718,0 z"
+       id="path3799-3-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#3e9ade;stroke:none"
+       d="m 300.18516,252.3845 c 0.0427,-5.88592 3.69125,-6.86994 3.03046,-8.33376 -0.57741,-1.00763 -1.22707,-1.89049 -2.71478,-1.32582 l -3.97748,7.00793 z"
+       id="path3819-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       d="m 285.28541,264.56154 c 0.0389,-4.53326 -6.29739,-5.56138 -6.18717,0 -0.4356,6.01636 6.40785,5.40464 6.18717,0 z"
+       id="path3799-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect4000-7"
+       width="3.8329403"
+       height="45.357143"
+       x="-291.84695"
+       y="172.71933"
+       ry="3.3114729"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#3e9ade;stroke:none"
+       d="m 301.29501,245.69088 c -7.49385,-0.26149 -15.05623,0.18247 -21.00362,0.37408 -0.93254,5.9966 -1.35173,12.53867 -0.38895,20.54904 0.6542,2.20171 4.19692,1.59072 4.66746,0.21246 0.008,-3.54796 -1.73521,-8.84771 0.19448,-10.47427 12.42325,0.0263 16.67501,-0.0365 16.53063,-10.66131 z"
+       id="path4020-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
     <path
        style="fill:#333333;stroke:none"
-       d="m 324.01786,203.07647 1.69643,1.875 c 8.06905,-4.31157 16.61084,-5.85419 26.33928,-0.44643 l 1.51786,-1.42857 c -10.56774,-6.73554 -20.1644,-4.34298 -29.55357,0 z"
-       id="path4046"
+       d="m 306.44867,200.24003 -1.84754,1.96393 c -8.78781,-4.51606 -18.09047,-6.13184 -28.68549,-0.4676 l -1.65306,-1.49633 c 11.50908,-7.05498 21.96057,-4.54895 32.18609,0 z"
+       id="path4046-5"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
     <path
-       style="fill:#d38d5f;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 324.46429,205.93361 c -4.22389,-6.9134 8.28387,-7.08387 2.67857,0.71429 -4.41943,5.17857 -4.65263,14.10714 -2.41071,17.76785 l -2.05358,2.14286 c -1.08954,-1.29641 -3.16515,-13.1878 1.78572,-20.625 z"
-       id="path4022"
+       style="fill:#ff794b;stroke:none"
+       d="m 305.96248,203.23268 c 4.60014,-7.24128 -9.02176,-7.41984 -2.91717,0.74817 4.8131,5.42417 5.06706,14.7762 2.62544,18.61051 l 2.23651,2.2445 c 1.18661,-1.35789 3.44709,-13.81326 -1.94478,-21.60318 z"
+       id="path4022-5"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
     <path
-       style="fill:#d38d5f;stroke:none"
-       d="m 353.7381,205.96976 c 4.08201,-6.9134 -8.00561,-7.08387 -2.58859,0.71429 4.27098,5.17857 4.49634,14.10714 2.32973,17.76785 l 1.9846,2.14286 c 1.05294,-1.29641 3.05883,-13.1878 -1.72574,-20.625 z"
-       id="path4022-9"
+       style="fill:#ff794b;stroke:none"
+       d="m 274.08106,203.27054 c -4.44562,-7.24128 8.71873,-7.41983 2.81917,0.74817 -4.65142,5.42418 -4.89685,14.7762 -2.53725,18.61053 l -2.16139,2.24449 c -1.14673,-1.3579 -3.33128,-13.81326 1.87947,-21.60319 z"
+       id="path4022-9-6"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
     <path
-       style="fill:#ff9955;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 324.375,222.18361 -3.48214,3.48214 c 2.31752,2.47114 6.14171,5.72943 9.28571,5.89286 L 328.75,242.89789 c -0.006,9.03445 20.84759,6.00924 20.17857,0.53572 l -1.69643,-11.60714 c 6.50798,-0.1964 8.21154,-3.27546 10.08929,-6.25 l -3.92857,-2.85714 c -1.93055,3.34962 -4.64984,4.64851 -7.76786,4.91071 L 332.5,227.36218 c -3.95663,0.008 -6.227,-2.26818 -8.125,-5.17857 z"
-       id="path4044"
+       style="fill:#ff9933;stroke:none"
+       d="m 306.05972,220.25337 3.79232,3.64729 c -2.52396,2.58834 -6.68879,6.00116 -10.11285,6.17234 l 1.7344,16.35526 c 0.007,9.46293 -22.8832,7.05318 -22.15459,1.32007 l 1.84755,-17.39477 c -7.08769,-0.20571 -8.94298,-3.4308 -10.988,-6.54642 l 4.2785,-2.99264 c 2.10251,3.50848 5.06403,4.86897 8.45979,5.14361 l 14.29413,-0.28057 c 4.30908,0.008 6.78168,-2.37575 8.84875,-5.42417 z"
+       id="path4044-9"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccccc" />
+       sodipodi:nodetypes="ccccccccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff794b;stroke:none"
+       d="m 287.38984,222.7784 -0.87514,2.80562 c 2.11453,1.68589 4.07614,1.46019 5.93157,-0.0935 l -1.16687,-2.71209 z"
+       id="path3795-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#990000;stroke:none"
+       d="m 293.12694,210.52727 c -4.31826,-5.91191 -14.85369,-2.70153 -10.98801,5.70471 2.28692,-6.36719 6.68635,-5.87728 10.98801,-5.70471 z"
+       id="path3797-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ff3300;fill-opacity:1;stroke:none"
+       id="path4042-3"
+       sodipodi:cx="339.91071"
+       sodipodi:cy="220.26396"
+       sodipodi:rx="6.875"
+       sodipodi:ry="6.7410712"
+       d="m 346.78571,220.26396 a 6.875,6.7410712 0 1 1 -13.75,0 6.875,6.7410712 0 1 1 13.75,0 z"
+       transform="matrix(-1.0890764,0,0,1.0474271,659.91228,-13.964073)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/bike-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#9999ff;stroke:none"
+       d="m 94.285714,-477.63782 c -10,0 -15,5 -15,15 l 0,170 c 0,10 5,15 15,15 l 90.000006,0 c 10,0 15,-5 15,-15 l 0,-170 c 0,-10 -5,-15 -15,-15 z"
+       id="path3914"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#b4e2ff;stroke:none"
+       d="m 109.28572,-407.63782 -20.000006,-30 c 35.000006,-15 65.000006,-15 100.000006,0 l -20,30 c -20,-5 -40,-5 -60,0 z"
+       id="path3916"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#b4e2ff;stroke:none"
+       d="m 189.28572,-427.63782 -15,25 0,50 15,0 z"
+       id="path3918"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#b4e2ff;stroke:none"
+       d="m 89.285714,-427.63782 0,75 14.999996,0 0,-50 z"
+       id="path3920"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#b4e2ff;stroke:none"
+       d="m 189.28572,-292.63782 -0.004,-54.76521 -14.92418,0.0433 -0.0685,29.89159 z"
+       id="path3920-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#b4e2ff;stroke:none"
+       d="m 89.191011,-292.69488 15.094699,-24.94294 0.21767,-29.71876 -14.999879,-0.0569 z"
+       id="path3918-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#b4e2ff;stroke:none"
+       d="m 109.28572,-312.63782 c 20,5 40,5 60,0 l 15,25 c -30,5 -60,5 -90.000006,0 z"
+       id="path3969"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ffff99;stroke:none"
+       d="m 94.285714,-477.63782 c 0,10 15.000006,10 15.000006,0 z"
+       id="path3971"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ffff99;stroke:none"
+       d="m 168.98242,-477.99188 c 0,10 15,10 15,0 z"
+       id="path3971-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect3991"
+       width="5"
+       height="40.02602"
+       x="79.285721"
+       y="-452.63782"
+       ry="4.0026021"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect3991-4"
+       width="5"
+       height="40.02602"
+       x="79.285721"
+       y="-337.94113"
+       ry="4.0026021"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect3991-4-2"
+       width="5"
+       height="40.02602"
+       x="194.43672"
+       y="-337.73935"
+       ry="4.0026021"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect3991-4-5"
+       width="5"
+       height="40.02602"
+       x="194.23494"
+       y="-452.082"
+       ry="4.0026021"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#0083d7;stroke:none"
+       d="m 85,-197.63782 c -10,0 -20,5 -20,15 l 0,170.000003 c 0,9.9999996 5,14.9999996 15,14.9999996 l 90,0 c 10,0 15,-5 15,-14.9999996 l 0,-170.000003 c 0,-10 -10,-15 -20,-15 z"
+       id="path3914-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-4.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#b4e2ff;stroke:none"
+       d="m 95,-107.18223 -20,-30 c 35,-15 65,-15 100,0 l -20,30 c -20,-5 -40,-5 -60,0 z"
+       id="path3916-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-4.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#b4e2ff;stroke:none"
+       d="m 175,-127.63782 -15,25 0,30.000003 15,0 z"
+       id="path3918-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-4.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#b4e2ff;stroke:none"
+       d="m 75,-127.63782 0,55.000003 15,0 0,-30.000003 z"
+       id="path3920-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-4.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#b4e2ff;stroke:none"
+       d="m 174.99668,-37.807497 -6.8e-4,-29.59553 -14.92418,0.0433 -0.0718,4.72191 z"
+       id="path3920-3-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-4.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#b4e2ff;stroke:none"
+       d="M 74.905297,-37.694877 90,-62.637817 l 0.21767,-4.71876 -14.999883,-0.0569 z"
+       id="path3918-7-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-4.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#b4e2ff;stroke:none"
+       d="m 95,-57.386554 c 20,5 40,5 60,0 l 15,24.999999 c -30,5 -60,5 -90,0 z"
+       id="path3969-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-4.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ffff99;stroke:none"
+       d="m 70.505076,-182.33452 c 0,10 25,0 25,-10 -10,0 -20,0 -25,10 z"
+       id="path3971-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-4.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ffff99;stroke:none"
+       d="m 155.20178,-192.68858 c 0,10 25.3033,20.35406 25.3033,10.35406 -5,-10 -15,-10 -25.3033,-10.35406 z"
+       id="path3971-1-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-4.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect3991-8"
+       width="5"
+       height="40.02602"
+       x="65"
+       y="-172.63782"
+       ry="4.0026021"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-4.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect3991-4-9"
+       width="5"
+       height="40.02602"
+       x="65"
+       y="-57.941128"
+       ry="4.0026021"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-4.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect3991-4-2-6"
+       width="5"
+       height="40.02602"
+       x="180.15102"
+       y="-57.739346"
+       ry="4.0026021"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-4.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect3991-4-5-7"
+       width="5"
+       height="40.02602"
+       x="179.94922"
+       y="-172.08199"
+       ry="4.0026021"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-4.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#3e9ade;fill-opacity:1;stroke:none"
+       id="rect4101"
+       width="30"
+       height="40"
+       x="110"
+       y="-192.63782"
+       ry="0"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-4.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#3e9ade;stroke:none"
+       d="m 110,-107.63782 c 10,-2 20,-2 30,0 l 0,50.000003 c -10,2 -20,2 -30,0 z"
+       id="path4103"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-4.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#3e9ade;stroke:none"
+       d="m 110,-2.6378174 0,-19.9999996 30.17857,0 0,19.9999996 z"
+       id="path4105"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-4.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#0083d7;fill-opacity:1;stroke:none"
+       id="rect4107"
+       width="5"
+       height="40"
+       x="115"
+       y="-192.63782"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-4.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#0083d7;fill-opacity:1;stroke:none"
+       id="rect4107-6"
+       width="5"
+       height="40"
+       x="130.15102"
+       y="-192.8396"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-4.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#0083d7;fill-opacity:1;stroke:none"
+       id="rect4107-1"
+       width="5"
+       height="54.142136"
+       x="115.02475"
+       y="-109.9738"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-4.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#0083d7;fill-opacity:1;stroke:none"
+       id="rect4107-3"
+       width="5"
+       height="40"
+       x="115"
+       y="-107.63782"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-4.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#0083d7;fill-opacity:1;stroke:none"
+       id="rect4107-39"
+       width="5"
+       height="54.017857"
+       x="130.04465"
+       y="-109.69139"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-4.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#0083d7;fill-opacity:1;stroke:none"
+       id="rect4107-4"
+       width="5"
+       height="26.026785"
+       x="114.98214"
+       y="-27.548532"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-4.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#0083d7;fill-opacity:1;stroke:none"
+       id="rect4107-4-1"
+       width="5"
+       height="26.026785"
+       x="130.59822"
+       y="-26.030659"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-4.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#990000;stroke:none"
+       d="m -160,-227.63782 c -10,0 -15,5 -15,15 l 0,170.000003 c 0,10 5,15 15,15 l 90,0 c 10,0 15,-5 15,-15 l 0,-170.000003 c 0,-10 -5,-15 -15,-15 z"
+       id="path3914-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-5.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#b4e2ff;stroke:none"
+       d="m -141.61599,-163.35211 -18.08071,-30 c 31.64125,-15 58.76231,-15 90.403552,0 l -18.080711,30 c -18.080711,-5 -36.161421,-5 -54.242131,0 z"
+       id="path3916-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-5.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#b4e2ff;stroke:none"
+       d="m -69.293148,-183.35211 -13.560533,25 0,15 13.560533,10 z"
+       id="path3918-71"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-5.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#b4e2ff;stroke:none"
+       d="m -159.6967,-183.35211 0,50 13.56054,-10 0,-15 z"
+       id="path3920-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-5.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#b4e2ff;stroke:none"
+       d="m -141.61599,-138.35211 c 9.04036,0 36.16142,0 54.242131,0 l 18.080711,10 c -27.121066,5 -63.282482,5 -90.403552,0 z"
+       id="path3969-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-5.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ffff99;stroke:none"
+       d="m -164.56735,-220.02315 c 0,3.45238 15,3.45238 15,0 0,-3.45239 -15,-3.45239 -15,0 z"
+       id="path3971-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-5.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect3991-2"
+       width="10"
+       height="40.02602"
+       x="-175"
+       y="-202.63782"
+       ry="4.0026021"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-5.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect3991-4-50"
+       width="9.6428576"
+       height="40.02602"
+       x="-175"
+       y="-87.941124"
+       ry="4.0026021"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-5.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect3991-4-2-7"
+       width="9.6428576"
+       height="40.02602"
+       x="-64.491844"
+       y="-87.739342"
+       ry="4.0026021"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-5.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect3991-4-5-4"
+       width="10"
+       height="40.02602"
+       x="-64.8722"
+       y="-202.61769"
+       ry="4.0026021"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-5.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff794b;stroke:none"
+       d="m -159.64286,-117.63782 0,85.000003 89.821431,0 0,-85.000003 c -26.946428,5 -58.383931,5 -89.821431,0 z"
+       id="path4227"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-5.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#990000;fill-opacity:1;stroke:none"
+       id="rect4229"
+       width="10"
+       height="85.631348"
+       x="-150.14639"
+       y="-118.17353"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-5.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#990000;fill-opacity:1;stroke:none"
+       id="rect4229-9"
+       width="10"
+       height="85"
+       x="-129.80302"
+       y="-115.24269"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-5.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#990000;fill-opacity:1;stroke:none"
+       id="rect4229-9-0"
+       width="10"
+       height="86.894035"
+       x="-110.09492"
+       y="-117.77316"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-5.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#990000;fill-opacity:1;stroke:none"
+       id="rect4229-9-3"
+       width="10"
+       height="86.785713"
+       x="-89.139053"
+       y="-117.11008"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-5.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ffff99;stroke:none"
+       d="m -79.975253,-220.27567 c 0,3.45238 15,3.45238 15,0 0,-3.45239 -15,-3.45239 -15,0 z"
+       id="path3971-5-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-5.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect3991-2-4"
+       width="60.065685"
+       height="2"
+       x="-145.04189"
+       y="-225.64447"
+       ry="0"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-5.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect3991-2-4-4"
+       width="60.065685"
+       height="2"
+       x="-144.98891"
+       y="-221.51602"
+       ry="0"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-5.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect3991-2-4-9"
+       width="60.065685"
+       height="2"
+       x="-145.05203"
+       y="-217.60168"
+       ry="0"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-5.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#66cc33;stroke:none"
+       d="m 280,-227.63782 c -10,0 -15,5 -15,15 l 0,170.000003 c 0,10 5,15 15,15 l 90,0 c 10,0 15,-5 15,-15 l 0,-170.000003 c 0,-10 -5,-15 -15,-15 z"
+       id="path3914-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#b4e2ff;stroke:none"
+       d="m 295,-142.48553 -20,-30 c 35,-15 65,-15 100,0 l -20,30 c -20,-5 -40,-5 -60,0 z"
+       id="path3916-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ffff99;stroke:none"
+       d="m 280.17857,-222.63782 c 0,10 15,10 15,0 z"
+       id="path3971-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ffff99;stroke:none"
+       d="m 355.05384,-222.72402 c 0,10 15,10 15,0 z"
+       id="path3971-1-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect3991-6"
+       width="5"
+       height="40.02602"
+       x="265"
+       y="-198.42917"
+       ry="4.0026021"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect3991-4-94"
+       width="5"
+       height="40.02602"
+       x="265"
+       y="-87.941124"
+       ry="4.0026021"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect3991-4-2-67"
+       width="5"
+       height="40.02602"
+       x="380.151"
+       y="-87.739342"
+       ry="4.0026021"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect3991-4-5-41"
+       width="5"
+       height="40.02602"
+       x="380.0665"
+       y="-197.86806"
+       ry="4.0026021"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#996600;stroke:none"
+       d="m 275,-162.48553 0,74.999998 c 34.87819,18.317639 68.45153,21.163348 100,0 l 0,-74.999998 -15,25 c -25,-5 -45,-5 -70,0 z"
+       id="path4407"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#cc9900;stroke:none"
+       d="m 280,-112.48553 0,-20 c 0,-4 2,-5 5,-5 l 30,0 c 3,0 5,2 5,5 l 0,20 c 0,3 -2,5 -5,5 l -30,0 c -3,0 -5,-2 -5,-5 z"
+       id="path4411"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#cc9900;stroke:none"
+       d="m 330.03571,-112.48553 0,-20 c 0,-4 2,-5 5,-5 l 30,0 c 3,0 5,2 5,5 l 0,20 c 0,3 -2,5 -5,5 l -30,0 c -3,0 -5,-2 -5,-5 z"
+       id="path4411-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#003399;stroke:none"
+       d="m 285,-134.48553 5,0 c 0,27 20,27 20,0 l 5,0 c 0,32 -30,32 -30,0 z"
+       id="path4431"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#000000;stroke:none;fill-opacity:1"
+       d="m 290,-122.48553 c 0,-7.5 4.64286,-11.07143 9.64286,-11.07143 5,0 10,3.75 10,11.25 L 311,-96.485532 c -1,-3.999998 -4.02151,-10.511458 -5,-13.999998 l 0,13.999998 -4,-12.999998 -1,13.999998 -3,-11.999998 -2,12.999998 -1,-14.999998 -4,12.999998 1,-14.999998 -6,14.999998 z"
+       id="path4409"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csccccccccccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#009900;fill-opacity:1;stroke:none"
+       id="rect3991-6-9"
+       width="50.236835"
+       height="10.115305"
+       x="299.69644"
+       y="-224.44708"
+       ry="0"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#009900;stroke:none"
+       d="m 280,-42.99496 -5,10 c 34.59482,-7.064304 67.78433,-6.2589 100,0 l -5,-10 c -30,-6.483254 -60,-6.848024 -90,0 z"
+       id="path4458"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       d="m 275,-87.637817 0,10 c 32.65415,18.56435 65.91798,20.464101 100,0 l 0,-10 c -35,10 -65,10 -100,0 z"
+       id="path4460"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#e1e1e1;stroke:none;fill-opacity:1"
+       d="m -105.71429,-487.63786 c -10,0 -15,5 -15,15 l 0,170 c 0,10 5,15 15,15 l 90.000014,0 c 10,0 15,-5 15,-15 l 0,-170 c 0,-10 -5,-15 -15,-15 z"
+       id="path3914-53"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#3e9ade;stroke:none"
+       d="m -89.956666,-391.87897 -20.000004,-30 c 35.000004,-15 65.000004,-15 100.000008,0 l -20.000004,30 c -20,-5 -40,-5 -60,0 z"
+       id="path3916-07"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#3e9ade;stroke:none"
+       d="m -10.2092,-412.13151 -15.000004,25 0.2092,24.49369 15.000004,0 z"
+       id="path3918-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#3e9ade;stroke:none"
+       d="m -109.70414,-412.13151 -0.29586,49.49369 15,0 0.295863,-24.49369 z"
+       id="path3920-38"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#3e9ade;stroke:none"
+       d="m -10.003316,-327.8075 -0.71496,-29.59557 -14.924184,0.0433 0.64246,4.72195 z"
+       id="path3920-3-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#3e9ade;stroke:none"
+       d="M -110.0947,-327.69488 -95,-352.63782 l -0.49662,-4.7188 -14.99988,-0.0569 z"
+       id="path3918-7-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#3e9ade;stroke:none"
+       d="m -89.451589,-347.89167 c 20,5 40,5 60,0 l 15.000004,25 c -30.000004,5 -60.000004,5 -90.000015,0 z"
+       id="path3969-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ffff00;stroke:none"
+       d="m -90.029767,-477.57203 c 0.179107,-9.99839 -14.818483,-10.26706 -14.997593,-0.26865 z"
+       id="path3971-82"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect3991-7"
+       width="5"
+       height="40.02602"
+       x="-120.71428"
+       y="-462.63785"
+       ry="4.0026021"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect3991-4-8"
+       width="5"
+       height="40.02602"
+       x="-120.71428"
+       y="-347.94116"
+       ry="4.0026021"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect3991-4-2-2"
+       width="5"
+       height="40.02602"
+       x="-5.5632772"
+       y="-347.73938"
+       ry="4.0026021"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       id="rect3991-4-5-0"
+       width="5"
+       height="40.02602"
+       x="-5.7650595"
+       y="-462.08203"
+       ry="4.0026021"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ffff00;stroke:none"
+       d="m -15.029767,-477.57204 c 0.179107,-9.99839 -14.818483,-10.26706 -14.997593,-0.26865 z"
+       id="path3971-82-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:transform-center-x="2.5277677"
+       inkscape:transform-center-y="1.2485382"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#990000;fill-opacity:1;stroke:none"
+       id="path4552"
+       sodipodi:cx="-105"
+       sodipodi:cy="-297.63782"
+       sodipodi:rx="5"
+       sodipodi:ry="5"
+       d="m -100,-297.63782 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       transform="translate(90,0)"
+       sodipodi:type="arc"
+       style="fill:#990000;fill-opacity:1;stroke:none"
+       id="path4552-1"
+       sodipodi:cx="-105"
+       sodipodi:cy="-297.63782"
+       sodipodi:rx="5"
+       sodipodi:ry="5"
+       d="m -100,-297.63782 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/car-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#111111;fill-opacity:1;stroke:none"
+       d="m 243.31779,111.92225 c 0.0389,-5.17076 -6.29738,-6.34345 -6.18718,0 -0.43559,6.86241 6.40786,6.16468 6.18718,0 z"
+       id="path3799-3-6-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#414141;stroke:none;fill-opacity:1"
+       d="m 240.18516,122.3845 c 0.0427,-5.88592 3.69125,-6.86994 3.03046,-8.33376 -0.57741,-1.00763 -1.22707,-1.89049 -2.71478,-1.32582 l -3.97748,7.00793 z"
+       id="path3819-5-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#333333;stroke:none"
+       d="m 246.44867,70.24003 -1.84754,1.96393 c -8.78781,-4.51606 -18.09047,-6.13184 -28.68549,-0.4676 l -1.65306,-1.49633 c 11.50908,-7.05498 21.96057,-4.54895 32.18609,0 z"
+       id="path4046-5-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff794b;stroke:none"
+       d="m 245.96248,73.23268 c 4.60014,-7.24128 -9.02176,-7.41984 -2.91717,0.74817 4.8131,5.42417 5.06706,14.7762 2.62544,18.61051 l 2.23651,2.2445 c 1.18661,-1.35789 3.44709,-13.81326 -1.94478,-21.60318 z"
+       id="path4022-5-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff794b;stroke:none"
+       d="m 214.08106,73.27054 c -4.44562,-7.24128 8.71873,-7.41983 2.81917,0.74817 -4.65142,5.42418 -4.89685,14.7762 -2.53725,18.61053 l -2.16139,2.24449 c -1.14673,-1.3579 -3.33128,-13.81326 1.87947,-21.60319 z"
+       id="path4022-9-6-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff794b;stroke:none"
+       d="m 227.38984,92.7784 -0.87514,2.80562 c 2.11453,1.68589 4.07614,1.46019 5.93157,-0.0935 l -1.16687,-2.71209 z"
+       id="path3795-8-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#222222;fill-opacity:1;stroke:none"
+       id="path4042-3-1"
+       sodipodi:cx="339.91071"
+       sodipodi:cy="220.26396"
+       sodipodi:rx="7.5995107"
+       sodipodi:ry="6.7410712"
+       d="m 347.51022,220.26396 a 7.5995107,6.7410712 0 1 1 -15.19903,0 7.5995107,6.7410712 0 1 1 15.19903,0 z"
+       transform="matrix(-1.0890764,0,0,1.0474271,599.91228,-143.96408)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#99ccff;stroke:none"
+       d="m 237,84.362183 c 0,-7 -14,-7 -14,0 6,-4 8,-4 14,0 z"
+       id="path3797-6-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#111111;fill-opacity:1;stroke:none"
+       d="m 222,119.36218 16,0 c 0.32247,3.88483 1.22886,18.56112 0,23 -5.58046,10.13221 -10.89559,9.3857 -16,0 -1.49781,-4.59912 -0.0859,-19.03437 0,-23 z"
+       id="path4673"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#414141;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 220,118.36218 c -2,12 24,11 20,0 z"
+       id="path4675"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#222222;stroke:none;fill-opacity:1"
+       d="m 243,74.362183 4,-1 c 6,18 1,25 -7.26081,26.710817 l 1.7344,16.35526 c 0.007,9.46293 -22.8832,7.05318 -22.15459,1.32007 l 1.84755,-17.39477 C 212,100.36218 206,87.362183 213,73.362183 l 5,1 c -7,18 1.52108,21.321287 4.91684,21.595927 l 14.29413,-0.28057 C 241.52005,95.68554 249,90.362183 243,74.362183 z"
+       id="path4044-9-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#990000;fill-opacity:1;stroke:none"
+       id="path4698"
+       sodipodi:cx="230"
+       sodipodi:cy="158.86218"
+       sodipodi:rx="3"
+       sodipodi:ry="1.5"
+       d="m 233,158.86218 a 3,1.5 0 1 1 -6,0 3,1.5 0 1 1 6,0 z"
+       transform="translate(0,-13.131983)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#111111;fill-opacity:1;stroke:none"
+       d="m 277.38293,111.64062 c -0.0377,-5.17076 6.10617,-6.34345 5.99932,0 0.42236,6.86241 -6.2133,6.16468 -5.99932,0 z"
+       id="path3799-3-6-0-3-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#0083d7;fill-opacity:1;stroke:none"
+       d="m 280.42044,122.10287 c -0.0414,-5.88592 -3.57917,-6.86994 -2.93845,-8.33376 0.55988,-1.00763 1.18982,-1.89049 2.63236,-1.32582 l 3.85671,7.00793 z"
+       id="path3819-5-5-7-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#222222;fill-opacity:1;stroke:none"
+       id="rect4000-7-7-00"
+       width="9.9936543"
+       height="45.625"
+       x="-295.1875"
+       y="42.526978"
+       ry="4.9968271"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ccccff;fill-opacity:1;stroke:none"
+       d="m 284.12627,61.437689 c 5,1 7,1 12,0 0,26 4,16 4,26 0,9.999997 -5,13.000001 -5,20.000001 l -10,0 c 0,-7 -5,-10.000004 -5,-20.000001 0,-10 4,0 4,-26 z"
+       id="path4665-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#222222;fill-opacity:1;stroke:none"
+       id="rect4000-7-7-0-2"
+       width="10.044647"
+       height="45.281631"
+       x="-295.04465"
+       y="117.08055"
+       ry="4.9968271"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#111111;fill-opacity:1;stroke:none"
+       d="m 303.44406,111.99776 c 0.0389,-5.17076 -6.29738,-6.34345 -6.18718,0 -0.43559,6.86241 6.40786,6.16468 6.18718,0 z"
+       id="path3799-3-6-0-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#0066cc;fill-opacity:1;stroke:none"
+       d="m 300.31143,122.46001 c 0.0427,-5.88592 3.69125,-6.86994 3.03046,-8.33376 -0.57741,-1.00763 -1.22707,-1.89049 -2.71478,-1.32582 l -3.97748,7.00793 z"
+       id="path3819-5-5-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#333333;stroke:none"
+       d="m 306.57494,70.315536 -1.84754,1.96393 c -8.78781,-4.51606 -18.09047,-6.13184 -28.68549,-0.4676 l -1.65306,-1.49633 c 11.50908,-7.05498 21.96057,-4.54895 32.18609,0 z"
+       id="path4046-5-0-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff794b;stroke:none"
+       d="m 306.08875,73.308186 c 4.60014,-7.24128 -9.02176,-7.41984 -2.91717,0.74817 4.8131,5.42417 5.06706,14.7762 2.62544,18.61051 l 2.23651,2.2445 c 1.18661,-1.35789 3.44709,-13.81326 -1.94478,-21.60318 z"
+       id="path4022-5-5-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff794b;stroke:none"
+       d="m 274.20733,73.346046 c -4.44562,-7.24128 8.71873,-7.41983 2.81917,0.74817 -4.65142,5.42418 -4.89685,14.7762 -2.53725,18.61053 l -2.16139,2.24449 c -1.14673,-1.3579 -3.33128,-13.81326 1.87947,-21.60319 z"
+       id="path4022-9-6-7-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff794b;stroke:none"
+       d="m 287.51611,92.853906 -0.87514,2.80562 c 2.11453,1.68589 4.07614,1.46019 5.93157,-0.0935 l -1.16687,-2.71209 z"
+       id="path3795-8-3-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#990000;fill-opacity:1;stroke:none"
+       id="path4042-3-1-6"
+       sodipodi:cx="339.91071"
+       sodipodi:cy="220.26396"
+       sodipodi:rx="7.5995107"
+       sodipodi:ry="6.7410712"
+       d="m 347.51022,220.26396 a 7.5995107,6.7410712 0 1 1 -15.19903,0 7.5995107,6.7410712 0 1 1 15.19903,0 z"
+       transform="matrix(-1.0890764,0,0,1.0474271,660.03855,-143.88857)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#3e9ade;stroke:none"
+       d="m 297.12627,84.437689 c 0,-7 -14,-7 -14,0 6,-4 8,-4 14,0 z"
+       id="path3797-6-1-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#111111;fill-opacity:1;stroke:none"
+       d="m 282.12627,119.43769 16,0 c 0.32247,3.88483 1.22886,18.56112 0,23 -5.58046,10.13221 -10.89559,9.3857 -16,0 -1.49781,-4.59912 -0.0859,-19.03437 0,-23 z"
+       id="path4673-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#0066cc;fill-opacity:1;stroke:none"
+       d="m 280.12627,118.43769 c -2,12 24,11 20,0 z"
+       id="path4675-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#990000;fill-opacity:1;stroke:none"
+       d="m 303.12627,74.437689 4,-1 c 6,18 1,24.999997 -7.26081,26.710821 l 1.7344,16.35526 c 0.007,9.46293 -22.8832,7.05318 -22.15459,1.32007 l 1.84755,-17.39477 c -9.16655,0.009 -15.16655,-12.991381 -8.16655,-26.991381 l 5,1 c -7,18 1.52108,21.321287 4.91684,21.595927 l 14.29413,-0.28057 c 4.30908,0.008 11.78903,-5.315357 5.78903,-21.315357 z"
+       id="path4044-9-1-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#990000;fill-opacity:1;stroke:none"
+       id="rect4769"
+       width="40"
+       height="34.242386"
+       x="269.87372"
+       y="127.99353"
+       ry="4.8886652"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff794b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 307,159.36218 -16,-28 c -15.3758,0.24886 -16.56569,8.41362 -17,17 z"
+       id="path4773"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#990000;stroke:none"
+       d="m 305,157.36218 -30,-10 c 1.2394,-7.56821 4.10135,-14.02835 15,-15 z"
+       id="path4771"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#111111;fill-opacity:1;stroke:none"
+       d="m 337.6138,111.56511 c -0.0377,-5.17076 6.10617,-6.34345 5.99932,0 0.42236,6.86241 -6.2133,6.16468 -5.99932,0 z"
+       id="path3799-3-6-0-3-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#006600;fill-opacity:1;stroke:none"
+       d="m 340.65131,122.02736 c -0.0414,-5.88592 -3.57917,-6.86994 -2.93845,-8.33376 0.55988,-1.00763 1.18982,-1.89049 2.63236,-1.32582 l 3.85671,7.00793 z"
+       id="path3819-5-5-7-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#222222;fill-opacity:1;stroke:none"
+       id="rect4000-7-7-0-3"
+       width="9.9183807"
+       height="45.35714"
+       x="-355.27554"
+       y="117.00504"
+       ry="4.9968271"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#111111;fill-opacity:1;stroke:none"
+       d="m 363.67493,111.92225 c 0.0389,-5.17076 -6.29738,-6.34345 -6.18718,0 -0.43559,6.86241 6.40786,6.16468 6.18718,0 z"
+       id="path3799-3-6-0-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#006600;fill-opacity:1;stroke:none"
+       d="m 360.5423,122.3845 c 0.0427,-5.88592 3.69125,-6.86994 3.03046,-8.33376 -0.57741,-1.00763 -1.22707,-1.89049 -2.71478,-1.32582 l -3.97748,7.00793 z"
+       id="path3819-5-5-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff794b;stroke:none"
+       d="m 347.74698,92.7784 -0.87514,2.80562 c 2.11453,1.68589 4.07614,1.46019 5.93157,-0.0935 l -1.16687,-2.71209 z"
+       id="path3795-8-3-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#222222;fill-opacity:1;stroke:none"
+       id="path4042-3-1-2"
+       sodipodi:cx="339.91071"
+       sodipodi:cy="220.26396"
+       sodipodi:rx="7.5995107"
+       sodipodi:ry="6.7410712"
+       d="m 347.51022,220.26396 a 7.5995107,6.7410712 0 1 1 -15.19903,0 7.5995107,6.7410712 0 1 1 15.19903,0 z"
+       transform="matrix(-1.0890764,0,0,1.0474271,720.26942,-143.96408)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#009900;fill-opacity:1;stroke:none"
+       d="m 342.35714,119.36218 16,0 c 0.32247,3.88483 1.22886,18.56112 0,23 -5.58046,10.13221 -10.89559,9.3857 -16,0 -1.49781,-4.59912 -0.0859,-19.03437 0,-23 z"
+       id="path4673-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#006600;fill-opacity:1;stroke:none"
+       d="m 340.35714,118.36218 c -2,12 24,11 20,0 z"
+       id="path4675-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#990000;fill-opacity:1;stroke:none"
+       id="path4698-0"
+       sodipodi:cx="230"
+       sodipodi:cy="158.86218"
+       sodipodi:rx="3"
+       sodipodi:ry="1.5"
+       d="m 233,158.86218 a 3,1.5 0 1 1 -6,0 3,1.5 0 1 1 6,0 z"
+       transform="translate(120.42027,-11.048543)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <rect
+       style="fill:#006600;fill-opacity:1;stroke:none"
+       id="rect4844"
+       width="6.0178571"
+       height="18"
+       x="347.03571"
+       y="127.36218"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#333333;stroke:none"
+       d="m 366.80581,70.24003 -1.84754,1.96393 c -8.78781,-4.51606 -18.09047,-6.13184 -28.68549,-0.4676 l -1.65306,-1.49633 c 11.50908,-7.05498 21.96057,-4.54895 32.18609,0 z"
+       id="path4046-5-0-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#99ccff;stroke:none"
+       d="m 357.35714,84.362183 c 0,-7 -14,-7 -14,0 6,-4 8,-4 14,0 z"
+       id="path3797-6-1-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff794b;stroke:none"
+       d="m 366.31962,73.23268 c 4.60014,-7.24128 -9.02176,-7.41984 -2.91717,0.74817 4.8131,5.42417 5.06706,14.7762 2.62544,18.61051 l 2.23651,2.2445 c 1.18661,-1.35789 3.44709,-13.81326 -1.94478,-21.60318 z"
+       id="path4022-5-5-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff794b;stroke:none"
+       d="m 334.4382,73.27054 c -4.44562,-7.24128 8.71873,-7.41983 2.81917,0.74817 -4.65142,5.42418 -4.89685,14.7762 -2.53725,18.61053 l -2.16139,2.24449 c -1.14673,-1.3579 -3.33128,-13.81326 1.87947,-21.60319 z"
+       id="path4022-9-6-7-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#66cc33;fill-opacity:1;stroke:none"
+       d="m 363.35714,74.362183 4,-1 c 6,18 1,25 -7.26081,26.710817 l 1.7344,16.35526 c 0.007,9.46293 -22.8832,7.05318 -22.15459,1.32007 l 1.84755,-17.39477 c -9.16655,0.009 -15.16655,-12.991377 -8.16655,-26.991377 l 5,1 c -7,18 1.52108,21.321287 4.91684,21.595927 l 14.29413,-0.28057 c 4.30908,0.008 11.78903,-5.315357 5.78903,-21.315357 z"
+       id="path4044-9-1-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/scooter-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#0066cc;stroke:none"
+       d="m 605,194.36218 4,-2 c 0,19 62,19 62,0 l 4,2 c 0,25 -70,24 -70,0 z"
+       id="path4895"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#0066cc;stroke:none"
+       d="m 629.70346,208.17463 c 6.43416,-6.29422 13.43412,-8.6278 22,0 z"
+       id="path4897"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ff794b;fill-opacity:1;stroke:none"
+       id="path4042-8"
+       sodipodi:cx="339.91071"
+       sodipodi:cy="220.26396"
+       sodipodi:rx="6.875"
+       sodipodi:ry="6.7410712"
+       d="m 346.78571,220.26396 a 6.875,6.7410712 0 1 1 -13.75,0 6.875,6.7410712 0 1 1 13.75,0 z"
+       transform="matrix(1.0890764,0,0,1.0474271,270.44482,-26.106936)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ff794b;fill-opacity:1;stroke:none"
+       id="path4899"
+       sodipodi:cx="603.5"
+       sodipodi:cy="194.36218"
+       sodipodi:rx="5.5"
+       sodipodi:ry="2"
+       d="m 609,194.36218 a 5.5,2 0 1 1 -11,0 5.5,2 0 1 1 11,0 z"
+       transform="matrix(0.50637168,0.22055324,-0.39932238,0.91681058,378.92713,-118.45023)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ff794b;fill-opacity:1;stroke:none"
+       id="path4899-1"
+       sodipodi:cx="603.5"
+       sodipodi:cy="194.36218"
+       sodipodi:rx="5.5"
+       sodipodi:ry="2"
+       d="m 609,194.36218 a 5.5,2 0 1 1 -11,0 5.5,2 0 1 1 11,0 z"
+       transform="matrix(0.51487727,-0.19989349,0.3619169,0.93221036,291.99859,132.5641)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-1.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#d5d5d5;fill-opacity:1;stroke:none"
+       d="m 600,257.36218 10,-40 60,0 10,40 -7,0 -8,-30 -50,0 -8,30 z"
+       id="path4939"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc" />
+    <rect
+       style="fill:#d5d5d5;fill-opacity:1;stroke:none"
+       id="rect4948"
+       width="71"
+       height="10"
+       x="605"
+       y="217.36218"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff3300;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 605,227.36218 5,-10 5,0 -5,10 z"
+       id="path4950"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff3300;stroke:none"
+       d="m 615.03571,227.25504 5,-10 5,0 -5,10 z"
+       id="path4950-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff3300;stroke:none"
+       d="m 625.10714,227.36218 5,-10 5,0 -5,10 z"
+       id="path4950-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff3300;stroke:none"
+       d="m 634.97131,227.36759 5,-10 5,0 -5,10 z"
+       id="path4950-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff3300;stroke:none"
+       d="m 644.92857,227.34432 5,-10 5,0 -5,10 z"
+       id="path4950-88"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff3300;stroke:none"
+       d="m 654.94019,227.36218 5,-10 5,0 -5,10 z"
+       id="path4950-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#ff3300;stroke:none"
+       d="m 664.99667,227.4039 5,-10 5,0 -5,10 z"
+       id="path4950-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#1a1a1a;fill-opacity:1;stroke:none"
+       id="path5025"
+       sodipodi:cx="640"
+       sodipodi:cy="249.86218"
+       sodipodi:rx="20"
+       sodipodi:ry="2.5"
+       d="m 660,249.86218 a 20,2.5 0 1 1 -40,0 20,2.5 0 1 1 40,0 z"
+       transform="translate(-0.63134534,-9.4701801)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-2.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#009900;stroke:none"
+       d="m 602.57155,275.01832 0,15.16125 c 0,10.82398 20.00665,10.82398 20.00665,0 l 0,-15.16125 z"
+       id="path5140-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#99ff66;fill-opacity:1;stroke:none"
+       id="path5111-8"
+       sodipodi:cx="660"
+       sodipodi:cy="287.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 680,287.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       transform="matrix(0.526491,0,0,0.3297163,265.09081,179.28402)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#009900;fill-opacity:1;stroke:none"
+       id="path5111-9-6"
+       sodipodi:cx="660"
+       sodipodi:cy="287.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 680,287.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       transform="matrix(0.46001147,0,0,0.2870425,309.03378,191.44277)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#99ff66;stroke:none;fill-opacity:1"
+       d="m 610.57398,274.01121 1.05297,0 c 0,-0.65944 2.10597,-0.98915 2.10597,0 l 1.05298,0 c 0,-1.64859 -4.21192,-1.64859 -4.21192,0 z"
+       id="path5138-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#006600;stroke:none"
+       d="m 616.88173,282.43466 0,16.15381 c 0,11.53259 23.52381,11.53259 23.52381,0 l 0,-16.15381 z"
+       id="path5140-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#66cc33;fill-opacity:1;stroke:none"
+       id="path5111-0"
+       sodipodi:cx="660"
+       sodipodi:cy="287.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 680,287.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       transform="matrix(0.61904767,0,0,0.35130186,220.07217,180.43291)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#006600;fill-opacity:1;stroke:none"
+       id="path5111-9-3"
+       sodipodi:cx="660"
+       sodipodi:cy="287.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 680,287.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       transform="matrix(0.5408811,0,0,0.30583434,271.74028,193.38766)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#66cc33;stroke:none;fill-opacity:1"
+       d="m 626.29098,281.36161 1.2381,0 c 0,-0.7026 2.47619,-1.05391 2.47619,0 l 1.23809,0 c 0,-1.75651 -4.95238,-1.75651 -4.95238,0 z"
+       id="path5138-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#006600;stroke:none"
+       d="m 643.3103,282.7918 0,16.15381 c 0,11.53259 23.52381,11.53259 23.52381,0 l 0,-16.15381 z"
+       id="path5140-6-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#66cc33;fill-opacity:1;stroke:none"
+       id="path5111-0-7"
+       sodipodi:cx="660"
+       sodipodi:cy="287.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 680,287.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       transform="matrix(0.61904767,0,0,-0.35130186,246.50074,382.69179)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#006600;fill-opacity:1;stroke:none"
+       id="path5111-9-3-6"
+       sodipodi:cx="660"
+       sodipodi:cy="287.36218"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 680,287.36218 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       transform="matrix(0.5408811,0,0,0.30583434,298.16885,193.7448)"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#66cc33;stroke:none;fill-opacity:1"
+       d="m 652.71955,281.71875 1.2381,0 c 0,-0.7026 2.47619,-1.05391 2.47619,0 l 1.23809,0 c 0,-1.75651 -4.95238,-1.75651 -4.95238,0 z"
+       id="path5138-5-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#99ff66;stroke:none"
+       d="m 603,277.36218 0,14 c 2.24767,5.76932 4.64016,5.1662 7,6 -4.45652,-4.45502 -5.19176,-12.78636 -7,-20 z"
+       id="path5249"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#009900;stroke:none"
+       d="m 618,286.36218 0,14 c 3,5 6,5 9,6 -6.93409,-3.28335 -7.85252,-11.74017 -9,-20 z"
+       id="path5251"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
+    <path
+       style="fill:#009900;stroke:none"
+       d="m 644.33036,286.69254 0,14 c 3,5 6,5 9,6 -6.93409,-3.28335 -7.85252,-11.74017 -9,-20 z"
+       id="path5251-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/home/anders/Desktop/bike-game/public/img/side-3.png"
+       inkscape:export-xdpi="112.3586"
+       inkscape:export-ydpi="112.3586" />
   </g>
 </svg>
